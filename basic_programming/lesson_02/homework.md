@@ -1,6 +1,7 @@
 ## Write an application demonstrating the operation of the stack
 
 1. The main method calls method1. method1 calls method2. method2 calls method3.
+
 2. In each method the following should happen:
     + Prints information to the console that such and such a method has started
     + Calls the next method

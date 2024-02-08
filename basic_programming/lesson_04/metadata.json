@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork/Circle.java",
+    "code/classwork/MathOperation.java",
+    "code/classwork/Rectangle.java",
+    "code/homework/Methods.java",
+    "code/homework/Tale.java"
+
+  ]
+}

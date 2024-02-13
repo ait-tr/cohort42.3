@@ -3,11 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/Circle.java",
-    "code/classwork/MathOperation.java",
-    "code/classwork/Rectangle.java",
-    "code/homework/Methods.java",
-    "code/homework/Tale.java"
-
+    "code/classwork/CurrencyConvertor.java",
+    "code/classwork/Methods1.java",
+    "code/classwork/Methods2.java",
+    "code/homework/MathMethods.java"
   ]
 }

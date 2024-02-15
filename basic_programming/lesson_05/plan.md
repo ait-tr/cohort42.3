@@ -1,6 +1,5 @@
 # Lesson plan No. 5 02/15/2023
 
-
 1. Homework:
 - volume and surface area of the cube;
 - area of a triangle;

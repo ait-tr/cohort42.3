@@ -3,12 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/Conditions.java",
-    "code/classwork/Division.java",
-    "code/classwork/Maximum.java",
-    "code/classwork/Variables.java",
-    "code/homework/Cub.java",
-    "code/homework/Parallelogram.java",
-    "code/homework/Triangle.java"
-  ]
+    "code/classwork/Evaluation.java",
+    "code/classwork/TernaryOperator.java",
+    "code/classwork/WeekDays.java",
+    "code/homework/CalculateSum.java",
+    "code/homework/CostOfTicket.java",
+    "code/homework/LeapYear.java",
+    "code/homework/PurchaseWithDiscount.java"
+    ]
 }

@@ -1,8 +1,108 @@
-# Example
+# Theory
 
+## Algorithms (general concept and basic properties)
+Watch the video: https://www.youtube.com/watch?v=cDA3_5982h8
+- Who is the programmer?
+- Who is the computer?
+- What exactly are the problems?
 
+**Algorithm** is a _clear_ _sequence_ of _actions_, the implementation of which gives some
+known _result_.
+
+**Main properties of the algorithm:**
+1. Discretion (broken into steps).
+   “Top-down” methodology, “An elephant must be eaten in parts.”
+2. Effectiveness (there is a result at every step and at the end).
+3. Determinism (unambiguity, there is no possibility of “interpretation”).
+4. Limb (completed).
+
+## Java programming language
+
+**Java** is a high-level programming language originally developed by
+Sun Microsystems and released in 1995.
+Works on various platforms such as Windows, Mac OS,
+as well as various versions of UNIX.
+
+**Java** is a general-purpose programming language designed to enable programmers to:
+- could write once and run anywhere (WORA).
+  This means that the compiled Java code
+- Can run on all platforms that support Java without the need for recompilation.
+
+Learning a programming language usually starts with the 'Hello, World!' program, which displays this text on the screen.
+```console
+Hello, World!
+```
+In Java, this program would look like this:
+```java
+   class Main {
+       public static void main(String[] args) {
+           System.out.println("Hello, World!");
+       }
+   }
+```
+
+The text *Hello, World!* appears on the screen thanks to the command
+`System.out.println()`,
+where `println()` is short for *print line*. It displays the value specified in parentheses
+`("Hello, World!")`, in this case a string. The string is always surrounded by double quotes "". If this is not done, the compiler will indicate a syntax error.
+
+**It is very important to know and remember the following rules in the syntax of the Java language:**
+
+**Case Sensitivity**
+– Java is case sensitive, meaning the identifier Hello and hello have different meanings.
+x, X are different identifiers!
+
+Class names – for all **the first letter must be in upper case**.
+
+If multiple words are used to form a class name, the first letter of each internal word
+must be in upper case, for example, "MyJavaClass".
+Method names – In Java syntax, all method names must begin with a lowercase letter. If multiple words are used to form a method name or variable name, then
+The first letter of each internal word must be in upper case, for example, "myMethodName()", and the very first letter must be in small case.
+
+**Program file name = class name**
+– the name of the program file must exactly match(!) the name of the class.
+When saving a file, you should save it using the class name (remember to be case sensitive) and add ".java" to the end of the name (if the names don't match, your program won't compile), for example,
+"MyJavaProgram" is the name of the class, then the file should be saved as "MyJavaProgram.java".
+
+This naming style is called CamelCase.
+
+public static void main(String args[]) – program processing begins with the main() method, which is a required part of every program. Identifiers are names used for classes, variables and methods.
+
+**All Java components require a name.**
+
+There are several rules in Java syntax that you need to remember about the identifier.
+They are as follows:
+* Each identifier must begin with "A" before "Z" or "a" before "z", "$" or "_".
+  After the first character can have any combination of characters. The keyword cannot be used as an identifier.
+
+* The most important thing is that the identifier in Java is case sensitive!
+  Example of correct spelling: age, $salary, _value, __1_value.
+  An example of incorrect spelling: 123abc, -salary (you cannot start a name with the numbers 0 to 9 and special characters).
+
+* In Java (as in all programming languages) **there cannot be two identical identifiers**, the compiler will show an error.
+
+**Keywords**
+A total of **50 service (key)** words are reserved in Java.
+
+List of keywords in alphabetical order:
+
+abstract assert
+boolean - logical variable
+break byte case catch
+char is a character, for example a, b, c, $, %...
+class const continue default do double else enum extends
+final finally float for goto if implements import instanceof int interface long native new package private
+protected public return short static strictfp super switch synchronized this throw throws transient try
+void volatile while
+
+**Important!** The keyword cannot be used as a constant or variable, or any other
+identifier names.
+
+**Helpful!** Create your own mini-dictionary with translations of key words.
 
 ---------------------------------
+
+# Теория
 
 ## Алгоритмы (общее понятие и основные свойства)
 Cмотрим ролик: https://www.youtube.com/watch?v=cDA3_5982h8 

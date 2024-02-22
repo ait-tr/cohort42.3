@@ -45,9 +45,18 @@ Do not enter incorrect (negative) values for the currency being exchanged.
 1. Что мы узнали и сделали на прошлом занятии?
 - тернарный оператор
 
-- switch ... case
+int mim = ( n < m ) ? n : m
 
-- Scanner
+boolean isTotalAmountLessThen100 (totalAmount < 100) ? isTotalAmountLessThen100 = true : false;
+
+- switch ... case - конструкция для множественного выбора (более 3 и далее).
+
+- Scanner - позволяет получать данны от пользователя, он их вводит с клавиатуры.
+Алгоритм:
+- Шаг 1 - включить Сканнер.
+Scanner scanner = new scanner(System.in); // включаем один раз на свою программу
+- Шаг 2 - написать приглашение пользователю ...
+- Шаг 3 - задать тип и придумать название переменной, куда принять этот ввод.
 
 2. Homework:
 - расчет зарплаты работнику со стажем

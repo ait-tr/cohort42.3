@@ -3,12 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/Evaluation.java",
-    "code/classwork/TernaryOperator.java",
-    "code/classwork/WeekDays.java",
-    "code/homework/CalculateSum.java",
-    "code/homework/CostOfTicket.java",
-    "code/homework/LeapYear.java",
-    "code/homework/PurchaseWithDiscount.java"
+    "code/classwork/Currency.java",
+    "code/classwork/DayOfWeek.java",
+    "code/classwork/Garbage.java",
+    "code/homework/Calculator.java",
+    "code/homework/Salary.java",
+    "code/homework/Seasons.java",
+    "code/homework/TrafficLight.java"
     ]
 }

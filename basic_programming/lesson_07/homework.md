@@ -25,7 +25,7 @@ What age?
 60
 This weight is excessive for your age and height, I recommend that you lose 5-10 kg.
 
-## Typical tasks for conditional operator (to get practice).
+## Typical tasks for conditional operator (to get classwork).
 **Task 2.**
 Write a program that prompts the user for a number and checks whether it belongs to a given interval [a, b].
 

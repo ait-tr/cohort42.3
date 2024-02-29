@@ -20,7 +20,7 @@ public class SumOfDigits {
         int inputNum = num;
 
         while (num > 0) {
-            sumOfDigits += num % 10;
+            sumOfDigits = sumOfDigits + num % 10;
             num = num/10;
         }
         System.out.println("Sum of digits of " + inputNum + " = " + sumOfDigits);

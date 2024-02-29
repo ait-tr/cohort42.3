@@ -3,11 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/Apples.java",
-    "code/classwork/DigitsInNumber.java",
-    "code/classwork/LetterInString.java",
-    "code/classwork/Power3.java",
-    "code/classwork/RocketStart.java",
-    "code/homework/Taxes.java"
+    "code/classwork/Calculator.java",
+    "code/classwork/MultiplicationTable.java",
+    "code/classwork/NumbersBy5.java",
+    "code/classwork/PrimeNumber.java",
+    "code/homework/HappyTicket.java",
+    "code/homework/Runner.java",
+    "code/homework/StringRep.java",
+    "code/homework/SumOfDigits.java"
     ]
 }

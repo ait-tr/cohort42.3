@@ -18,15 +18,15 @@ public class Runner {
 
         int days = 0;
 
-//        while (s < target){
-//            s += s * 0.1;
-//            days++;
-//        }
-
-        while (s < target) {
-            s *= 1.1;
+        while (s < target){
+            s += s * 0.1;
             days++;
         }
+
+//        while (s < target) {
+//            s *= 1.1;
+//            days++;
+//        }
 
         System.out.println("After " + days + " days the distance will be : " + s);
 

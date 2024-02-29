@@ -1,4 +1,4 @@
-# Lesson plan No. 7 02/22/2024
+# Lesson plan No. 8 02/27/2024
 
 1. What did we learn and do in the last lesson?
 - Considered the char and String data types

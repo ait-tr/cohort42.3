@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork/Apples.java",
+    "code/classwork/DigitsInNumber.java",
+    "code/classwork/LetterInString.java",
+    "code/classwork/Power3.java",
+    "code/classwork/RocketStart.java",
+    "code/homework/Taxes.java"
+    ]
+}

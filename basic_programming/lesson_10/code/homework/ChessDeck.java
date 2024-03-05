@@ -6,17 +6,31 @@ package homework;
 
 public class ChessDeck {
     public static void main(String[] args) {
-        int i = 0;
-        int j = 0;
+        int k = 0;
+        int l = 0;
 
-        while (i < 8){
-            while (j < 8){
-                System.out.print((i + j) % 2 + " | ");
-                j++;
+        while (k < 8){
+            while (l < 8){
+                System.out.print((k + l) % 2 + " | ");
+                l++;
             }
             System.out.println();
-            j = 0;
-            i++;
+            l = 0;
+            k++;
+        }
+
+        // решение от Инги
+        char white = '◻'; // символ
+        char black = '◼'; // символ
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                if ((i + j) % 2 == 0) {
+                    System.out.print(white + "  ");
+                } else {
+                    System.out.print(black + "  ");
+                }
+            }
+            System.out.println();
         }
     }
 }

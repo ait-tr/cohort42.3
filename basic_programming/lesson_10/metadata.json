@@ -3,13 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/Calculator.java",
-    "code/classwork/MultiplicationTable.java",
-    "code/classwork/NumbersBy5.java",
-    "code/classwork/PrimeNumber.java",
-    "code/homework/HappyTicket.java",
-    "code/homework/Runner.java",
-    "code/homework/StringRep.java",
-    "code/homework/SumOfDigits.java"
+    "code/classwork/AgeOfCohort.java",
+    "code/classwork/ArrayAlphabet.java",
+    "code/classwork/AverageMark.java",
+    "code/homework/ChessDeck.java",
+    "code/homework/CinemaTicket.java",
+    "code/homework/NumbersBy13.java",
+    "code/homework/PrePostFix.java",
+    "code/homework/Time.java"
     ]
 }

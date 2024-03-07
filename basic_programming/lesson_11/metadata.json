@@ -3,13 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/AgeOfCohort.java",
-    "code/classwork/ArrayAlphabet.java",
-    "code/classwork/AverageMark.java",
-    "code/homework/ChessDeck.java",
-    "code/homework/CinemaTicket.java",
-    "code/homework/NumbersBy13.java",
-    "code/homework/PrePostFix.java",
-    "code/homework/Time.java"
+    "code/classwork/ArrayAppl.java",
+    "code/classwork/ArrayRefAppl.java",
+    "code/classwork/ReverseLoop.java",
+    "code/homework/MaxNumberInArray.java",
+    "code/homework/SwapFirstLast.java",
+    "code/homework/Temperature.java"
     ]
 }

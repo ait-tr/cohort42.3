@@ -1,6 +1,50 @@
 # Lesson plan No.11 03/07/2024
 
+1. What did we learn and do in the last lesson?
+- why do we need arrays?
+  ...
 
+An array is an **object** container containing a **fixed number** of values of **the same type**.
+The for loop (for loop) - what is its “beauty”?
+...
+
+2. Homework:
+- temperature in the city over the past week;
+- search for the maximum element and its index;
+- an array of 20 random numbers from 10 to 20, swapping the 1st and last element.
+
+3. Topic of the lesson:
+   Arrays and methods.
+   Arrays as objects. The concept of a link in Java. Stack and Heap.
+   Passing arguments to a method by reference and by value.
+
+4. Practice:
+
+Task 1.
+Square a number using a method that takes a number as an argument.
+Square an array element using a method that takes an array as an argument.
+Compare the initial values and the results obtained.
+
+Task 2.
+In the ArrayAppl class, implement methods for working with the array:
+- prints the array passed to the method
+- fills the array passed to the method with random integers in the range from A to B
+- swaps two array elements specified by indexes
+- finds an array element by index
+- finds the maximum element of the array
+
+Task 3.
+Write a method that takes an array of integers and prints it in reverse order.
+First the last element, then the penultimate one, etc.
+Make a similar method for an array filled with numbers in words:
+one, two, three, four, five
+
+Task 4.
+Specify an array of 10 random natural numbers in the range from -20 to 20.
+Ask the user for some natural number.
+Determine if this number is in the array. Create and use a method
+searchInArray, which receives an array and the searched number as input, and returns
+the answer is whether this number was found in the array.
 
 ---------------------------------
 

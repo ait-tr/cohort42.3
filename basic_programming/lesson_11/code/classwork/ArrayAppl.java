@@ -23,12 +23,22 @@ public class ArrayAppl {
         int res = searchByValue(arr, 5);
         System.out.println("Index = " + res);
 
+        int index = maxOfArray(arr);
+        System.out.println("Index of max element = " + index);
 
     }// end of main
 
     // max element
-    public static int maxOfArray(){
-
+    public static int maxOfArray(int[] arr){
+        int max = arr[0];
+        int indexMax = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] > max) {
+                max = arr[i];
+                indexMax = i;
+            }
+        }
+        return indexMax;
     }
 
 

@@ -1,60 +1,55 @@
 Task 1.
-Specify an array of 10 random natural numbers in the range from -20 to 20.
-Ask the user for some natural number.
-Determine if this number is in the array. Create and use a method
-searchInArray, which receives an array and the searched number as input, and returns
-the answer is whether this number was found in the array.
+Write a method that takes an array of strings as input. The method should return an array consisting of the shortest and longest string of the original array.
 
 Task 2.
-Write a method that accepts an array of integers and returns the arithmetic mean
-all its elements.
+Write a copyOfArray method. The method takes as input an array of integers and an integer - the length of the new array newLength. The method must create a new array of length newLength. The elements from the incoming array must be copied into the new array:
+
+Source array: {0, 1, 2, 3, 4 , 5, 6} -> copyOfArray(array, 3) -> print {0, 1, 2}
 
 Task 3.
-Write a method that takes an array of integers and expands it.
-The last element becomes zero, the second to last, the first, etc.
-Hint: This method must modify the resulting array.
+Roll a 6-sided die 20 times.
+Count how many times each number appears. Calculate the probability of each side appearing.
 
-For problems further (4 and 5), specify an array of 10 random numbers in the range from -10 to 10.
-Test the operation of the methods on the created array.
+**Tasks for repetition and consolidation (conditions, cycles, methods, prime numbers).**
 
-Task 4.
-Write a method that takes an array of integers and returns the sum of all of them
-odd elements.
+Task 1.
+They put s rubles into the savings bank for a three percent deposit.
+What will the deposit amount be after n years?
 
-Task 5.
-Write a method that accepts an array of integers and returns the product
-all its elements with even indices.
+Task 2.
+A businessman took out a loan of m thousand rubles from a bank at 10% per annum.
+In how many years will his debt exceed s thousand rubles if during this time he does not repay the debt?
 
-**Task 6.(*)
-Write a method that takes an array of integers and expands it.
-The last element becomes zero, the second to last, the first, etc.
-Hint: This method must modify the resulting array.
+Task 3.
+Write a method that takes an array of integers as input. The method must return an array consisting only of the prime numbers present in the original array.
+Example:
+input -> {0, 13, -25, 11, 31, 55, 98, 11, 5} -> output {13, 11, 31, 11, 5}
 
 _____________________________
 
 Задача 1.
-Задайте массив из 10 случайных целых чисел в интервале от -20 до 20.
-Запросите у пользователя какое-то целое число.
-Определите, есть ли это число в массиве. Создайте и используйте метод
-searchInArray, который получает на вход массив и искомое число, а возвращает
-ответ - нашлось ли это число в массиве.
+Написать метод, принимающий на вход массив строк. Метод должен вернуть массив, состоящий из самой короткой и самой длинной строки изначального массива.
 
 Задача 2.
-Написать метод, принимающий массив целых чисел, и возвращающий среднее арифметическое
-всех его элементов.
+Написать метод copyOfArray. Метод принимает на вход массив целых чисел и целое число - длину нового массива newLength. Метод должен создать новый массив длиной newLength. В новый массив должны быть скопированы элементы из входящего массива:
 
-Для задач далее (3 и 4) задайте массив из 10 случайных чисел в интервале от -10 до 10.
-Протестируйте работу методов на созданном массиве.
+Исходный массив: {0, 1, 2, 3, 4 , 5, 6} -> copyOfArray(array, 3) -> вывод на печать {0, 1, 2}
 
 Задача 3.
-Написать метод, принимающий массив целых чисел, и возвращающий сумму всех его
-нечетных элементов.
+Бросьте кубик с 6-ю гранями 20 раз.
+Подсчитайте, сколько раз выпала каждая цифра. Посчитайте вероятность выпадения каждой грани.
 
-Задача 4.
-Написать метод, принимающий массив целых чисел, и возвращающий произведение
-всех его элементов с четными индексами.
+**Задачи на повторение и закрепление (условие, циклы, методы, простые числа).**
 
-**Задача 5.(*)
-Написать метод, принимающий массив целых чисел, и разворачивающий его.
-Последний элемент становится нулевым, предпоследний, первым, и т. д.
-Подсказка: этот метод должен изменить полученный массив.
+Задача 1.
+В сберкассу на трёхпроцентный вклад положили s рублей.
+Какой станет сумма вклада через n лет.
+
+Задача 2.
+Бизнесмен взял ссуду m тысяч рублей в банке под 10% годовых.
+Через сколько лет его долг превысит s тысяч рублей, если за это время он не будет отдавать долг.
+
+Задача 3.
+Написать метод, принимающий на вход массив целых чисел. Метод должен вернуть массив, состоящий только из простых чисел, имеющихся в изначальном массиве.
+Пример:
+вход -> {0, 13, -25, 11, 31, 55, 98, 11, 5} -> выход {13, 11, 31, 11, 5}

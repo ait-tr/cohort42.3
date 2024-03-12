@@ -10,11 +10,40 @@ package homework;
 Написать метод, принимающий массив целых чисел, и возвращающий произведение
 всех его элементов с четными индексами.*/
 
-public class Task3and4 {
+public class ArrayMethods {
     public static void main(String[] args) {
 
+        int[] array = new int[10];
+        int a = -10;
+        int b = 10;
 
+        fillArray(array, a, b);
+        printArray(array);
+        System.out.println("Sum of odd elements: " + sumOfOddElementsOfArray(array));
+        System.out.println("Multiply of elements with even index: " + multiplyElementsWithEvenIndex(array));
 
+    }
+
+    // multiply elements with even indexes
+    public static int multiplyElementsWithEvenIndex(int[] arr){
+        int res = 1;
+        for (int i = 0; i < arr.length; i++) {
+            if(i % 2 == 0) {
+                res *= arr[i];
+            }
+        }
+        return res;
+    }
+
+    // sum of odd elements
+    public static int sumOfOddElementsOfArray(int[] arr){
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] %2 == 1){
+                sum += arr[i];
+            }
+        }
+        return sum;
     }
 
     // print array
@@ -31,5 +60,4 @@ public class Task3and4 {
             arr[i] = (int) (Math.random() * (b - a + 1) + a);
         }
     }
-
 }

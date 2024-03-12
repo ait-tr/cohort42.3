@@ -1,96 +1,51 @@
-# Lesson plan No.11 03/07/2024
+# LESSON PLAN NO.12 03/12/2024
 
-1. What did we learn and do in the last lesson?
-- why do we need arrays?
-  ...
 
-An array is an **object** container containing a **fixed number** of values of **the same type**.
-The for loop (for loop) - what is its “beauty”?
-...
-
-2. Homework:
-- temperature in the city over the past week;
-- search for the maximum element and its index;
-- an array of 20 random numbers from 10 to 20, swapping the 1st and last element.
-
-3. Topic of the lesson:
-   Arrays and methods.
-   Arrays as objects. The concept of a link in Java. Stack and Heap.
-   Passing arguments to a method by reference and by value.
-
-4. Practice:
-
-Task 1.
-Square a number using a method that takes a number as an argument.
-Square an array element using a method that takes an array as an argument.
-Compare the initial values and the results obtained.
-
-Task 2.
-In the ArrayAppl class, implement methods for working with the array:
-- prints the array passed to the method
-- fills the array passed to the method with random integers in the range from A to B
-- swaps two array elements specified by indexes
-- finds an array element by index
-- finds the maximum element of the array
-
-Task 3.
-Write a method that takes an array of integers and prints it in reverse order.
-First the last element, then the penultimate one, etc.
-Make a similar method for an array filled with numbers in words:
-one, two, three, four, five
-
-Task 4.
-Specify an array of 10 random natural numbers in the range from -20 to 20.
-Ask the user for some natural number.
-Determine if this number is in the array. Create and use a method
-searchInArray, which receives an array and the searched number as input, and returns
-the answer is whether this number was found in the array.
 
 ---------------------------------
 
-# План занятия №11 07.03.2024
+# План занятия №12 12.03.2024
 
 1. Что мы узнали и сделали на прошлом занятии?
-- для чего нам нужны массивы?
-хранение больших объемов информации, данных - эти данные должны быть одного типа(int, long, boolean, double, float, ...), 
-их количество фиксировано, мы не можем его размер произвольно менять.
-
-Массив – это **объект**-контейнер, содержащий **фиксированное количество** значений **одного типа**.
-
-Цикл for (for loop) - в чем его "прелесть"?
-- работяга, перебирает поочередно, по порядку ВСЕ данные в массиве;
-- в скобках после for сразу указывается параметр, условие, шаг изменения.
+- массивы - это **объекты**, сложные структуры, хранящие в себе данные, которые характеризуют состояние объекта и методы, отвечающие за его поведение.
+- имя массива располагается в ... , а значения элементов в ...
+- массив можно передать в метод, он передается по ...
+- мы написали несколько методов для работы с массивами и научились их вызывать из метода main, весь код располагался в одном классе.
 
 2. Домашнее задание:
-- температура в городе за прошедшую неделю, посчитать среднюю;
-- поиск максимального элемента в массиве и его индекса;
-- массив из 20 случайных чисел от 10 до 20, перестановка 1-го и последнего элемента местами.
+- метод searchInArray, отвечает на вопрос о наличии элемента в массиве
+- среднее арифметическое значение целочисленного массива;
+- сумма всех нечетных элементов массива;
+- произведение всех элементов с четными индексами;
+- "разворот" массива.
 
 3. Тема занятия:
-Массивы и методы.
-Массивы как объекты. Понятие ссылки в Java. Stack and Heap. 
-Передача аргументов в метод по ссылке и по значению.
+- модификатор public, вызов методов из другого класса;
+- сортировка массива методами bubble sort и selected sort;
+- использование датчика случайных чисел.
 
 4. Практика:
 
+**Шаг 1.**
+Создайте класс ArrayMethods и реализуйте в нем методы:
+- печать массива целых чисел
+- печать массива строк
+- поиск минимального элемента
+- поиск индекса минимального элемента
+
+**Шаг 2.**
+Создайте класс ArrayAppl, создайте в нем метод main, создайте тестовые массивы и вызовите методы из класса ArrayMethods
+для проверки их работоспособности.
+
+**Шаг 3.**
+Разработайте в классе ArrayMethods метод, который реализует алгоритм Bubble Sort (пузырьковая сортировка).
+
+**Шаг 4.**
+Проверьте работу метода сортировки на примере имеющихся массивов целых чисел.
+
+Использование датчика случайных чисел
 Задача 1.
-Возведите число в квадрат с помощью метода, получающего число в качестве аргумента.
-Возведите элемент массива в квадрат с помощью метода, получающего массив в качестве аргумента.
-Сравните первоначальные значения и полученные результаты.
-
-Задача 2. 
-В классе ArrayAppl реализуйте методы для работы с массивом:
-- печатает переданный в метод массив
-- заполняет переданный в метод массив случайными целыми числами в интервале от А до В
-- меняет указанные по индексам два элемента массива местами
-- находит элемент массива по индексу
-- находит максимальный элемент массива
-
-Задача 3.
-Написать метод, принимающий массив целых чисел, и печатающий его в обратном порядке.
-Сначала последний элемент, потом предпоследний, и т. д.
-Сделайте аналогичный метод для массива, заполненного цифрами прописью:
-one, two, three, four, five
-
+Подбросьте монетку 100 раз. Сколько раз выпала решка? Сколько орел?
+Сравните итоговые вероятности выпадения орла и решки.
 
 

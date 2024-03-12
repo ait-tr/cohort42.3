@@ -13,6 +13,8 @@ package homework;
 public class Task3and4 {
     public static void main(String[] args) {
 
+
+
     }
 
     // print array

@@ -18,9 +18,12 @@ public class ArrayMethods {
         int b = 10;
 
         fillArray(array, a, b);
+
         printArray(array);
-        System.out.println("Sum of odd elements: " + sumOfOddElementsOfArray(array));
-        System.out.println("Multiply of elements with even index: " + multiplyElementsWithEvenIndex(array));
+
+       System.out.println("Sum of odd elements: " + sumOfOddElementsOfArray(array));
+
+       System.out.println("Multiply of elements with even index: " + multiplyElementsWithEvenIndex(array));
 
     }
 
@@ -39,7 +42,7 @@ public class ArrayMethods {
     public static int sumOfOddElementsOfArray(int[] arr){
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i] %2 == 1){
+            if(arr[i] % 2 != 0){
                 sum += arr[i];
             }
         }

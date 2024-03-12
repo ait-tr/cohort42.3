@@ -3,11 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/ArrayAppl.java",
-    "code/classwork/ArrayRefAppl.java",
-    "code/classwork/ReverseLoop.java",
-    "code/homework/MaxNumberInArray.java",
-    "code/homework/SwapFirstLast.java",
-    "code/homework/Temperature.java"
+    "code/classwork/ArrayApplication.java",
+    "code/classwork/ArraysMethods.java",
+    "code/classwork/Coin.java",
+    "code/homework/ArrayMethods.java",
+    "code/homework/AverageOfArray.java",
+    "code/homework/ReverseArray.java",
+    "code/homework/SearchInArray.java"
     ]
 }

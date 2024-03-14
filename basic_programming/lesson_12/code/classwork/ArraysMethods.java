@@ -9,6 +9,28 @@ public class ArraysMethods {
         }
     }
 
+    //binary search
+    // метод будет возвращать индекс найденного элемента, или некоторое отрицательное число, если его не нашлось
+    // передаем в метод массив и число
+    // метод должен ответить на вопрос о наличии числа в массиве
+    public static int binarySearch(int[] arr, int element){
+        int left = 0;
+        int right = arr.length - 1;
+        while( left <= right ) {
+            int mid = (left + right)/2;
+            if(arr[mid] == element) {
+                return mid; // index of element
+            } else if (element < arr[mid]) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return - left -1; // when element not found
+    }
+
+
+
     // bubble sort
     // comparing two elements of array: array[i] ? array[i + 1]
     // if left array[i] > right array[i + 1] , swap

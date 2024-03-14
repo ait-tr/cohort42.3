@@ -3,12 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/ArrayApplication.java",
-    "code/classwork/ArraysMethods.java",
-    "code/classwork/Coin.java",
-    "code/homework/ArrayMethods.java",
-    "code/homework/AverageOfArray.java",
-    "code/homework/ReverseArray.java",
-    "code/homework/SearchInArray.java"
+    "/code/calsswork/BinarySearch.java",
+    "/code/calsswork/FindInArray.java",
+    "/code/homework/CopyOfArray.java",
+    "/code/homework/Cube1.java",
+    "/code/homework/Dice.java",
+    "/code/homework/StringArray.java"
     ]
 }

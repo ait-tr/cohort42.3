@@ -28,6 +28,14 @@ public class ArraysMethods {
 
 
     // print array int[]
+    public static void printArray(double[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " "); // print current element of array
+        }
+        System.out.println();
+    }
+
+    // print array int[]
     public static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " "); // print current element of array
@@ -66,4 +74,18 @@ public class ArraysMethods {
         }
         return indexOfMax;
     }
+
+    // index of max element
+    public static int indexMinOfArray(int[] array){
+        int min = array[0];
+        int indexOfMin = 0;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] < min) {
+                min = array[i];
+                indexOfMin = i;
+            }
+        }
+        return indexOfMin;
+    }
+
 }

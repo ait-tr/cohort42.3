@@ -3,11 +3,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "/code/calsswork/BinarySearch.java",
-    "/code/calsswork/FindInArray.java",
-    "/code/homework/CopyOfArray.java",
-    "/code/homework/Cube1.java",
-    "/code/homework/Dice.java",
-    "/code/homework/StringArray.java"
+    "/code/classwork/car/model/Car.java",
+    "/code/classwork/car/CarAppl.java",
+    "/code/classwork/firma/model/Employee.java",
+    "/code/classwork/firma/FirmaAppl.java",
+    "/code/homework/AddedRandomNum.java",
+    "/code/homework/LuckyDumpling.java",
+    "/code/homework/RandomNumber.java",
+    "/code/homework/StringArray1.java",
+    "/code/homework/ThrowTheDice.java",
+    "/code/homework/TwoDigitsOddNumbers.java"
     ]
 }

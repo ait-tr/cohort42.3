@@ -4,9 +4,9 @@ import homework.equation.model.QuadraticEquation;
 
 public class EquationAppl {
     public static void main(String[] args) {
-        double a = 1.0;
-        double b = -5.0;
-        double c = 6.0;
+        double a = -2.5;
+        double b = 1.3;
+        double c = -7.0;
 
         QuadraticEquation quadraticEquation = new QuadraticEquation(a, b, c);
 

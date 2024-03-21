@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "/code/classwork/car/model/Car.java",
+    "/code/classwork/car/CarAppl.java",
+    "/code/classwork/firma/model/Employee.java",
+    "/code/classwork/firma/FirmaAppl.java",
+    "/code/homework/AddedRandomNum.java",
+    "/code/homework/LuckyDumpling.java",
+    "/code/homework/RandomNumber.java",
+    "/code/homework/StringArray1.java",
+    "/code/homework/ThrowTheDice.java",
+    "/code/homework/TwoDigitsOddNumbers.java"
+    ]
+}

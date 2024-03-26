@@ -3,16 +3,16 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork/bank/model/BankAccount.java",
-    "code/classwork/bank/BankAppl.java",
-    "code/classwork/classes/Company.java",
-    "code/classwork/classes/Tree.java",
-    "code/classwork/classes/User.java",
-    "code/homework/equation/model/QuadraticEquation.java",
-    "code/homework/equation/EquationAppl.java",
-    "code/homework/pet/model/Pet.java",
-    "code/homework/pet/PetAppl.java",
-    "code/homework/student/model/Student.java",
-    "code/homework/student/StudentAppl.java"
+    "code/classwork/beverage/Beer.java",
+    "code/classwork/beverage/Beverage.java",
+    "code/classwork/beverage/BeverageAppl.java",
+    "code/classwork/computers/model/Computer.java",
+    "code/classwork/computers/model/Laptop.java",
+    "code/classwork/computers/model/SmartPhone.java",
+    "code/classwork/computers/ComputerShopAppl.java",
+    "code/homework/book/model/Book.java",
+    "code/homework/book/BookAppl.java",
+    "code/homework/cube/model/Cube.java",
+    "code/homework/cube/CubeAppl.java"
     ]
 }

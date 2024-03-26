@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork/CurrencyConvertor.java",
+    "code/classwork/Methods1.java",
+    "code/classwork/Methods2.java",
+    "code/homework/MathMethods.java"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork/beverage/Beer.java",
+    "code/classwork/beverage/Beverage.java",
+    "code/classwork/beverage/BeverageAppl.java",
+    "code/classwork/computers/model/Computer.java",
+    "code/classwork/computers/model/Laptop.java",
+    "code/classwork/computers/model/SmartPhone.java",
+    "code/classwork/computers/ComputerShopAppl.java",
+    "code/homework/book/model/Book.java",
+    "code/homework/book/BookAppl.java",
+    "code/homework/cube/model/Cube.java",
+    "code/homework/cube/CubeAppl.java"
+    ]
+}

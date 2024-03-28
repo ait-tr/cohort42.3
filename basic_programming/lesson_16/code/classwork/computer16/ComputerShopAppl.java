@@ -1,8 +1,8 @@
-package classwork.computers;
+package classwork.computer16;
 
-import classwork.computers.model.Computer;
-import classwork.computers.model.Laptop;
-import classwork.computers.model.SmartPhone;
+import classwork.computer16.model.Computer;
+import classwork.computer16.model.Laptop;
+import classwork.computer16.model.SmartPhone;
 
 public class ComputerShopAppl {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class ComputerShopAppl {
 
         comp[0] = new Computer("i7", 8, 256, "Asus", 1200);
         comp[1] = new Computer("i9", 16, 512, "Acer", 1800);
+        comp[2] = new Laptop("M2", 16, 512, "Apple", 3000.00, 14.0, 2.15, 10);
         comp[2] = new Laptop("M2", 16, 512, "Apple MacBook", 3000, 2.15, 10, 10);
         comp[3] = new Laptop("AMD", 64, 2000, "MCI", 3500, 3.5, 4, 4);
         comp[4] = new Laptop("Intel", 32, 1024, "MCI", 1500, 2.5, 6, 6);

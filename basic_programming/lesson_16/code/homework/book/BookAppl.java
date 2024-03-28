@@ -1,6 +1,6 @@
 package homework.book;
 
-import homework.book.model.Book;
+import homework17.book.model.Book;
 
 public class BookAppl {
     public static void main(String[] args) {

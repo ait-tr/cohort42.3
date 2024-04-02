@@ -1,46 +1,76 @@
 # Homework
 
-**Task 1**
+Exercise 1.
+MarketAppl based on past homework:
+implement a method that prints products that have an expiration date.
 
-Create a class Product, with fields private double price; private String name; private long barCode;
-Create a Food class that extends the Product class with a private String expDate field that stores the expiration date.
-Create a MeatFood class that extends the Food class with a private String meatType field that stores the type of meat from which the product is made.
-Create a MilkFood class extending the Food class with private String milkType fields,
-private double fat, which store the type of milk and fat content of the product, respectively.
-In all classes, override the toString method.
-In the main method, create an array that stores one object for each product.
-Create a method that prints all products from the array, and a method that returns the sum of the prices of all products.
+Task 2.
+Create a Book class with fields:
+title - title;
+author - author;
+year of publication - year;
+unique number - ISBN;
+number of pages - pageQuantity.
 
-**Task 2.**
-In Task 1, override the equals method to compare objects.
-In the ProductsAppl class, create a method that prints all non-food products to the console.
-In the ProductsAppl class, create a method that accepts a barcode and returns a product with this barcode.
-In the main method, call new methods. Print the result of their work to the console.
+In the Book class, implement a constructor, getters and setters for all fields and
+display method, which displays information about the book.
+
+Create a Dictionary class that extends the Book class with fields:
+type - type;
+number of words - wordQuantity.
+
+In the BookAppl class, in the main method, create an array of type Book and there are 4 books and 3 dictionaries in it. Display information about them
+to the console.
+
+Implement methods that output:
+- the total number of pages in all books;
+- average number of words in dictionaries;
+- average age of all publications.
+
+Task 3.
+Create a Vehicle class with fields:
+- length;
+- width.
+
+There are 5 vehicles in the fleet, each with its own length and width.
+Calculate the required area for parking the vehicle fleet.
 
 
 _______________________________________________________
 
 # Домашнее задание
 
-## Задание 0.
-Читать теорию!
+Задание 1.
+MarketAppl на базе прошлого домашнего задания: 
+реализуйте метод, который печатает продукты, имеющие срок годности.
 
-**Задача 1.**
-Создать класс Product, с полями:
-- private double price 
-- private String name
-- private long barCode;
-Создать класс Food расширяющий класс Product с полем private String expDate, которое хранит дату истечения срока годности.
-Создать класс MeatFood расширяющий класс Food с полем private String meatType, которое хранит тип мяса из которого 
-изготовлен продукт.
-Создать класс MilkFood расширяющий класс Food с полями private String milkType,
-private double fat, которые хранят тип молока и жирность продукта соответственно.
-Во всех классах переопределить метод toString.
-В методе main создать массив в котором хранятся по одному объекту для каждого продукта.
-Создать метод печатающий все продукты из массива, и метод возвращающий сумму цен всех продуктов.
+Задача 2.
+Создайте класс Book с полями:
+название - title;
+автор - author;
+год издания - year;
+уникальный номер - ISBN;
+количество страниц - pageQuantity.
 
-**Задача 2.**
-В Задаче 1 переопределить метод equals для сравнения объектов.
-В классе ProductsAppl создать метод печатающий в консоль все не пищевые продукты.
-В классе ProductsAppl создать метод принимающий баркод и возвращающий продукт с данным баркодом.
-В методе main вызвать новые методы. Результат их работы напечатать в консоль.
+В классе Book реализуйте конструктор, геттеры и сеттеры на все поля и
+метод display, который выводит информацию о книге.
+
+Создайте класс Dictionary, который расширяет класс Book c полями:
+тип - type;
+кол-во слов - wordQuantity.
+
+В классе BookAppl в методе main создайте массив типа Book и в нем 4 книги и 3 словаря. Выведите информацию о них
+в консоль.
+
+Реализуйте методы, которые выдают:
+- общее количество страниц во всех книгах;
+- среднее значение количества слов в словарях;
+- средний возраст всех изданий.
+
+Задача 3.
+Создайте класс Vehicle с полями:
+- длина;
+- ширина.
+
+В автопарке 5 транспортных средств, каждое имеет свою длину и ширину.
+Рассчитайте необходимую площадь под стоянку автопарка.

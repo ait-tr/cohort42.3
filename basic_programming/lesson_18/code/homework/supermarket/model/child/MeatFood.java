@@ -1,4 +1,4 @@
-package homework.supermarket.model;
+package homework.supermarket.model.child;
 
 public class MeatFood extends Food{
 

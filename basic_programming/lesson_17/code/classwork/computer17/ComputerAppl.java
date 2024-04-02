@@ -45,7 +45,6 @@ public class ComputerAppl {
                 Laptop laptop1 = (Laptop)comp[i];
                 res += ((Laptop) comp[i]).getWeight();
             }
-
         }
         return res;
     }

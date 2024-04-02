@@ -1,11 +1,9 @@
-package homework.supermarket.model;
+package homework.supermarket.model.parent;
 
 /*Создать класс Product, с полями:
 - private double price
 - private String name
 - private long barCode;*/
-
-import java.util.Objects;
 
 public class Product {
     private double price;
@@ -44,15 +42,19 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product: " + "name=" + name + ", price= " + price;
+        return "Product: " + " name=" + name + ", price= " + price;
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Product product = (Product) o;
-        return barCode == product.barCode;
+        if (this == o) return true; // если это тот продукт, который мы ищем, то возвращаем true
+        if (o == null || getClass() != o.getClass()) return false; // не из нашего класса, то false
+        Product product = (Product) o; // делаем casting до нужного нам класса Product
+        return barCode == product.barCode; // сравниваем баркоды
     }
 
+    @Override
+    public int hashCode() {
+        return (int) (barCode ^ (barCode >>> 32));
+    }
 }

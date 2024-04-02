@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork/computer17/model/Computer.java",
+    "code/classwork/computer17/model/Laptop.java",
+    "code/classwork/computer17/model/Phone.java",
+    "code/classwork/computer17/ComputerAppl.java",
+    "code/classwork/computer17/ComputerCompareAppl.java",
+    "code/homework17/book/model/Book1.java",
+    "code/homework17/book/model/Dictionary.java",
+    "code/homework17/book/BookAppl.java",
+    "code/homework17/pets/model/Cat.java",
+    "code/homework17/pets/model/Dog.java",
+    "code/homework17/pets/model/Pet.java",
+    "code/homework17/pets/PetAppl.java"
+
+    ]
+}

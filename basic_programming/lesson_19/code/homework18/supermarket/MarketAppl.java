@@ -1,9 +1,9 @@
-package homework.supermarket;
+package homework18.supermarket;
 
-import homework.supermarket.model.child.Food;
-import homework.supermarket.model.child.MeatFood;
-import homework.supermarket.model.child.MilkFood;
-import homework.supermarket.model.parent.Product;
+import homework18.supermarket.model.child.Food;
+import homework18.supermarket.model.child.MeatFood;
+import homework18.supermarket.model.child.MilkFood;
+import homework18.supermarket.model.parent.Product;
 
 public class MarketAppl {
     public static void main(String[] args) {
@@ -29,9 +29,19 @@ public class MarketAppl {
         Product product = findByBarcode(products, 1002L);
         System.out.println(product);
 
+        System.out.println("==========Products with expiration date============");
+        printPproductsWithExpDate (products);
+        
+
     }// end of main
 
-    private static Product findByBarcode(Product[] products, long barCode) {
+    private static void printPproductsWithExpDate(Product[] products) {
+        for (int i = 0; i < ; i++) {
+            
+        }
+    }
+
+    private static Product findByBarcode(Product[] products, long barCode){
         Product product = null;
         for (int i = 0; i < products.length; i++) {
             if (products[i].getBarCode() == barCode) {
@@ -44,7 +54,7 @@ public class MarketAppl {
 
     private static void printNotFoodProducts(Product[] products) {
         for (int i = 0; i < products.length; i++) {
-           if(!(products[i] instanceof Food)){
+           if(products[i] instanceof Food){
                System.out.println(products[i]);
            }
         }

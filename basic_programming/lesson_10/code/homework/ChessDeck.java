@@ -33,16 +33,16 @@ public class ChessDeck {
             System.out.println();
         }
 
-        public static void main (String[]args){
-            System.out.println("Таблица квадратов чисел от 1 до 100:");
-            for (int i = 1; i <= 10; i++) { // Внешний цикл для строк
-                for (int j = 1; j <= 10; j++) { // Внутренний цикл для столбцов
-                    int number = (i - 1) * 10 + j; // Вычисляем число для текущей позиции
-                    System.out.print(number * number + "\t"); // Выводим квадрат числа с табуляцией
-                }
-                System.out.println(); // Переходим на новую строку после каждой строки из 10 чисел
-            }
-        }
+//        public static void main (String[]args){
+//            System.out.println("Таблица квадратов чисел от 1 до 100:");
+//            for (int i = 1; i <= 10; i++) { // Внешний цикл для строк
+//                for (int j = 1; j <= 10; j++) { // Внутренний цикл для столбцов
+//                    int number = (i - 1) * 10 + j; // Вычисляем число для текущей позиции
+//                    System.out.print(number * number + "\t"); // Выводим квадрат числа с табуляцией
+//                }
+//                System.out.println(); // Переходим на новую строку после каждой строки из 10 чисел
+//            }
+//        }
     }
 }
 }

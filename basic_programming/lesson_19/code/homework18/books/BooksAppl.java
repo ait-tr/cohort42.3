@@ -43,7 +43,7 @@ public class BooksAppl {
     private static double getAvgEge(Book[] books) {
         double avdEge = 0;
         for (int i = 0; i < books.length; i++) {
-            avdEge += books[i].getYaerOfPublishing();
+            avdEge += books[i].getYearOfPublishing();
         }
         return  avdEge / books.length;
     }

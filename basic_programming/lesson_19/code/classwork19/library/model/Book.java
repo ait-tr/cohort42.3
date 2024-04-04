@@ -1,18 +1,21 @@
-package homework18.books.model;
+package classwork19.library.model;
+
+import java.util.Objects;
 
 public class Book {
+
+    public static final int ISBN_LENGTH = 13; // final - значение константы изменить нельзя
+
     private String title;
     private String author;
     private int yearOfPublishing;
     private long isbn;
-    private int pageQuantity;
 
-    public Book(String title, String author, int yearOfPublishing, long isbn, int pageQuantity) {
+    public Book(String title, String author, int yearOfPublishing, long isbn) {
         this.title = title;
         this.author = author;
         this.yearOfPublishing = yearOfPublishing;
-        this.isbn = isbn;
-        this.pageQuantity = pageQuantity;
+        this.isbn = checkIsbn(isbn);
     }
 
     public String getTitle() {
@@ -43,16 +46,21 @@ public class Book {
         return isbn;
     }
 
-    public void setIsbn(long isbn) {
-        this.isbn = isbn;
+    private long checkIsbn(long isbn){
+        if(countDigits(isbn) == ISBN_LENGTH) {
+            return isbn;
+        }
+        return -1;
     }
 
-    public int getPageQuantity() {
-        return pageQuantity;
-    }
+    private int countDigits(long isbn) {
+        int count = 0;
+        do{
+            count++;
+            isbn = isbn / 10;
+        }while (isbn != 0);
 
-    public void setPageQuantity(int pageQuantity) {
-        this.pageQuantity = pageQuantity;
+        return count;
     }
 
     @Override
@@ -60,9 +68,22 @@ public class Book {
         return "Book{" +
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
-                ", yaerOfPublishing=" + yearOfPublishing +
+                ", yearOfPublishing=" + yearOfPublishing +
                 ", isbn=" + isbn +
-                ", pageQuantity=" + pageQuantity +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Book book)) return false;
+        return isbn == book.isbn;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(isbn);
+    }
 }
+
+

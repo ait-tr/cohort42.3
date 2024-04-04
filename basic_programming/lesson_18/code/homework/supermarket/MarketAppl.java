@@ -6,6 +6,8 @@ import homework.supermarket.model.child.MilkFood;
 import homework.supermarket.model.parent.Product;
 
 public class MarketAppl {
+
+
     public static void main(String[] args) {
 
         Product[] products = new Product[4];

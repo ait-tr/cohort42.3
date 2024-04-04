@@ -55,7 +55,12 @@ public class Computer {
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(cpu, ram, ssd, brand);
+    public String toString() {
+        return "Computer{" +
+                "cpu='" + cpu + '\'' +
+                ", ram=" + ram +
+                ", ssd=" + ssd +
+                ", brand='" + brand + '\'' +
+                '}';
     }
 }

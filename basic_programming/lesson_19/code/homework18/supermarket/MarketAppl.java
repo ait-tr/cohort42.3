@@ -30,14 +30,18 @@ public class MarketAppl {
         System.out.println(product);
 
         System.out.println("==========Products with expiration date============");
-        printPproductsWithExpDate (products);
+        printProductsWithExpDate (products);
         
 
     }// end of main
 
-    private static void printPproductsWithExpDate(Product[] products) {
-        for (int i = 0; i < ; i++) {
-            
+    private static void printProductsWithExpDate(Product[] products) {
+        Food food = null;
+        for (int i = 0; i < products.length; i++) {
+            if(products[i] instanceof Food){
+                food = (Food)products[i];
+                System.out.println(food.getName() + ", " + food.getBarCode() + ", " + food.getExpDate());
+            }
         }
     }
 

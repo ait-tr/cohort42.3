@@ -1,44 +1,137 @@
-# Lesson plan No. 18 04/04/2024
+# Lesson plan No. 19 04/04/2024
 
+1. What did we learn and do in the last lesson?
+- created classes:
+  - Product
+    -Food
+    - MilkFood
+      -MeatFood
+- created the MarketAppl class, in which
+  - created an array Product[] products = new Product[4]
+  - created array elements - objects of the Product, Food, MilkFood, MeatFood classes, BUT the array itself is of type Product
+  - implemented methods:
+    - printing of all products
+    - the sum of all costs
+    - search by barcode
+
+Important skills:
+- object creation
+
+- “running around the array” - for loop
+
+- i-th element of the array of objects
+
+- getting the value of an object field
+
+2. Homework - analysis of problems:
+- MarketAppl - a method that prints products with expiration dates
+- Book, Dictionary, BookAppl
+  - methods that produce:
+    - the total number of pages in all books;
+    - average number of words in dictionaries;
+    - average age of all publications.
+- vehicle fleet, calculation of the required area for cars with width a x b
+
+3. Topic of the lesson:
+
+3.1. Once again about the equals method
+- compare computers, understand the operation of the equals method
+
+- scenarios with the equals method:
+  - compare by primitive fields using ==
+  - compare by object fields using equals for this type of object, for example String
+  - there is a field with a unique value - depending on its type either == or equals
+
+3.2. Create and compare two variables of type String
+- create using "" and new
+- compare using ==, then using the equals() method
+  to consolidate understanding.
+
+3.3. We are developing an application.
+
+Books, library, application:
+- adding an object to an array of objects;
+- removing an object from an array of objects;
+- search for an object.
+
+4. Practice:
+
+Create a Book class with fields:
+long isbn, String title, String author, int yearOfPublishing.
+Check the ISBN for the correct number of digits = 13.
+
+Create a Library class with fields:
+Book[] books, int size.
+Implement a class constructor.
+Implement methods:
+- printing of all books in the library;
+- obtaining a number of books in the library;
+- searching for a book by ISBN;
+- adding a book to the library;
+- removing a book from the library.
+
+Create a class BookAppl, in which using the methods of the Library class:
+- create an object of the Library type for 10 books;
+- add 4 books to the library;
+- get the current library size (number of books);
+- print all the books in the library;
+- check the operation of the method of searching for a book by ISBN;
+- remove a book from the library;
+- check the number of books after deletion and print existing books.
 
 
 ---------------------------------
 
-# План занятия №18 02.04.2024
+# План занятия №19 04.04.2024
 
 1. Что мы узнали и сделали на прошлом занятии?
-- мы научились создавать свои классы с объектами (внутри у объекта - есть поля), 
-каждый созданный класс - это новый Тип данных, который формируется из имеющихся типов, при этом мы можем использовать:
-  - полиморфизм, возможность перагружать методы - у метода(ов) одинактвые названия, ноо разный набор аргументов
-  на примере Pet, Dog, Cat - метод voice().
-  - наследование - extends, возможность получения полей и методов из родителького класса (super).
+- создали классы: 
+  - Product
+    - Food
+      - MilkFood
+      - MeatFood
+- создали класс MarketAppl, в котором
+  - создали массив Product[] products = new Product[4]
+  - cоздали элементы массива - объекты классов Product, Food, MilkFood, MeatFood, НО сам массив типа Product 
+  - реализовали методы:
+    - печать всех продуктов
+    - сумма всех стоимостей
+    - поиск по штрих-коду
 
-- важные стандартные методы для каждого класса:
-  - конструктор(ы) - нужны для создания объектов класса
-  - геттеры и сеттеры - нужны для организации доступа к полям (получить и назначить значение) 
-  - toString - нужен для того, чтобы в переменую типа String вывести в консоль **информацию об объекте** в виде значений его полей и какого-то текста.  
+Важные навыки:
+- создание объекта с помощью ...
 
-- casting - приведение объекта к нужному типу, чтобы получить доступ к его методам:
-  - какой класс к какому типу мы приводили? - мы приводили Computer к Laptop и далее по наследственной линии 
-  - почему это понадобилось? - чтобы добраться до полей и методов, которые есть в классах - наследниках 
+- "обегаем массив" - цикл for
 
-- класс Object - родитель всех объектов; 
+- i-й элемент массива объектов
 
-- сравнение объектов, метод equals и что он делает.
+- получение значения поля объекта
 
 2. Домашнее задание - разбор задач:
-- создаем вложенные классы Product, Food, MeatFood, MilkFood;
-- создаем массив из объектов типа Product;
-- печатаем все продукты из массива;
-- находим продукты нужного класса;
-- считаем сумму стоимости всех продуктов;
-- находим продукт по его barCode.
+- MarketAppl - метод, который печатает продукты со сроками годности
+- Book, Dictionary, BookAppl
+  - методы, которые выдают:
+    - общее количество страниц во всех книгах;
+    - среднее значение количества слов в словарях;
+    - средний возраст всех изданий.
+- автопарк, расчет необходимой площади под автомобили шириной a x b  
 
 3. Тема занятия:
 
-MarketAppl:
-Product, Food, MeatFood, MilkFood
-- как распечатать список продуктов со сроком годности?
+3.1. Еще раз про метод equals
+- сравниваем компьютеры, понимаем работу метода equals
+
+- сценарии c методом equals:
+  - сравниваем по полям-примитивам через ==
+  - сравниваем по полям-объектам с помощью equals для этого типа объектов, например String
+  - есть поле с уникальным значением - в зависимости от его типа либо ==, либо equals
+
+3.2. Создаем и сравниваем две переменных типа String
+- создаем через "" и new
+- сравниваем c помощью ==, затем с помощью метода equals() 
+для закрепления понимания.
+
+3.3. Разрабатываем приложение.
 
 Книги, библиотека, приложение:
 - добавление объекта в массив объектов;
@@ -46,11 +139,6 @@ Product, Food, MeatFood, MilkFood
 - поиск объекта.
 
 4. Практика:
-
-Задание 1. 
-MarketAppl на базе домашнего задания: необходимо получить продукты со сроком годности.
-
-Задание 2.
 
 Создать класс Book с полями:
 long isbn, String title, String author, int yearOfPublishing.

@@ -1,6 +1,68 @@
 # Lesson plan No. 19 04/04/2024
 
+1. What did we learn and do in the last lesson?
+- compared objects of the Computer class using the equals method
 
+- RULE: comparing objects using "==" is incorrect, because "==" formally compares references, i.e.
+  object addresses. Objects must be compared using the equals method, which is overridden in each class.
+- all objects are inherited from the class ..., which has a method ...
+
+- scenarios with the equals method:
+  - compare by primitive fields using == ;
+  - compare by object fields using equals for this type of object, for example String;
+  - there is a field with a unique value, then we leave only it, compare depending on its type either == or equals
+
+**Important skills:**
+- creating an object using a constructor (constructor...)
+
+Array of objects of type Product products[]:
+
+- “running around the array” - for loop:
+  for (int i = 0; i < products.length; i++){
+  ...
+  }
+
+- i-th (current) element of the array of objects
+  products[i]
+
+- getting the value of an object field
+  products[i].get...
+
+2. Homework - do you have any questions?
+
+3. Topic of the lesson:
+
+**We are developing an application.**
+
+Books, library, application:
+- adding an object to an array of objects;
+- removing an object from an array of objects;
+- search for an object.
+
+4. Practice:
+
+Create a Book class with fields:
+long isbn, String title, String author, int yearOfPublishing.
+Check the ISBN for the correct number of digits = 13.
+
+Create a Library class with fields:
+Book[] books, int size.
+Implement a class constructor.
+Implement methods:
+- printing of all books in the library;
+- obtaining a number of books in the library;
+- searching for a book by ISBN;
+- adding a book to the library;
+- removing a book from the library.
+
+Create a class BookAppl, in which using the methods of the Library class:
+- create a Library type object for 10 books;
+- add 4 books to the library;
+- get the current library size (number of books);
+- print all the books in the library;
+- check the operation of the method of searching for a book by ISBN;
+- remove a book from the library;
+- check the number of books after deletion and print existing books.
 
 
 ---------------------------------

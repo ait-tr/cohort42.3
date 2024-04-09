@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "/code/classwork19/computer/Computer.java",
+    "/code/classwork19/computer/ComputerAppl.java",
+    "/code/classwork19/library/model/Book.java",
+    "/code/classwork19/string_ex/StringAppl.java",
+    "/code/homework18/autopark/model/Vehicle.java",
+    "/code/homework18/autopark/ParkingAppl.java",
+    "/code/homework18/books/model/Book.java",
+    "/code/homework18/books/model/Dictionary.java",
+    "/code/homework18/books/BooksAppl.java",
+    "/code/homework18/supermarket/model/child/Food.java",
+    "/code/homework18/supermarket/model/child/MeatFood.java",
+    "/code/homework18/supermarket/model/child/MilkFood.java",
+    "/code/homework18/supermarket/model/parent/Product.java",
+    "/code/homework18/supermarket/MarketAppl.java"
+
+    ]
+}

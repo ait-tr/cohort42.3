@@ -1,4 +1,4 @@
-# Lesson plan No. 19 04/04/2024
+# Lesson plan No. 20 04/04/2024
 
 1. What did we learn and do in the last lesson?
 - compared objects of the Computer class using the equals method

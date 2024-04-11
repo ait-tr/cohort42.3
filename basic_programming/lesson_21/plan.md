@@ -58,31 +58,35 @@ the application returns the gcd of these two numbers.
 **Протокол решения:**
 Реализация приложения LibraryAppl
 - класс Book с контролем создания книг с ISBN состоящим из 13 цифр:
-  - ... ... ...;
-  - ... ... ...;
-  - ... ... ...;
-  - ... ... ...;
+  - private String title;
+  - private String author;
+  - private int yearOfPublishing;
+  - private long isbn;
+  конструкторы, геттеры и сеттеры, toString, equals & hashCode
+  
 - класс Library:
-  - Book[] books,
-  - int size,
-  - конструктор с параметром capacity - вместимость библиотеки,
+  - private Book[] books - это поле класса, это массив объектов типа Book 
+  - private int size - это тоже поле, это поле отвечает за актуальное кол-во книг 
+  - конструктор с параметром int capacity - вместимость библиотеки,
   - методы:
-    - ... ... addBook(... ...);
-    - ... ... findBook(... ...);
-    - ... ... printBook(... ...);
-    - ... ... removeBook(... ...);
-    - ... ... getSize();
+    - public boolean addBook(Book book);
+    - public Book findBook(long isbn);
+    - public void printBook();
+    - public Book removeBook(long isbn);
+    - public int getSize();
+    
 - класс LibraryAppl
-  - создали объект ... на базе класса ..., в него попали поля:
-    - массив ...
-    - переменная ..., которая отвечает за ...
+  - создали объект library на базе класса Library, в него попали поля:
+    - массив books
+    - переменная size, которая отвечает за текущий размер библиотеки
     - вызвали методы:
-      - addBook
+      - addBook (new Book() )
       - printBook
       - getSize
+      - 
 Что в итоге мы получили? (объясните своими словами)
-  - ...
-  - ...
+  - получили объект library;
+  - получили возможность им управлять с помощью методов.
 
 2. Домашнее задание - есть ли вопросы?
 Computer - Stock - ComputerShop

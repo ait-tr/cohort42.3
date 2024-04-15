@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork20/library/controller/Library.java",
+    "code/classwork20/library/model/Book.java",
+    "code/classwork20/library/LibraryAppl.java",
+    "code/homework19/Computer.java"
+
+    ]
+}

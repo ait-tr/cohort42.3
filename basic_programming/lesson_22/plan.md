@@ -45,8 +45,8 @@ Password validation:
 
 1. Что мы узнали и сделали на прошлом занятии?
 - классы-обертки Integer, Byte, Character, Double, Boolean, ...
-  - константы классов
-  - методы ParseInt, ParseDouble
+  - константы классов - MAX_VALUE, MIN_VALUE
+  - методы ParseInt, ParseDouble - из строки получает значение типа численного 
 - запуск приложения с аргументами командной строки
   - main(String[] args){
       args[0] = ...; // это ...
@@ -61,7 +61,7 @@ Password validation:
 
 3. Тема занятия:
    класс String и его методы:
-   length, charAt, equalsIgnoreCase, toUpperCase, toLowerCase, indexOf, lastIndexOf, substring, replace
+   length - длина строки, charAt - символ на каком месте в сроке, equalsIgnoreCase - сравнение игнорируя большие и маленькие буквы, toUpperCase - в верхний регистр, toLowerCase - в низкий регистр букв, indexOf - ищет индекс искомого символа индекс символа слева, lastIndexOf - ищет индекс искомого символа в строке справа, substring - находит подстроку в строке, replace - заменяет что-то на указанное
 
 4. Практика:
 
@@ -72,7 +72,7 @@ Password validation:
 Валидация email:
 1) @ exists and only one
 2) dot after @
-3) after last dot minimum 2 symbols
+3) after last dot minimum 2 symbols (.ru, .de, .com)
 4) alphabetic, digits, _ , - , . , @
 
 Валидация password:

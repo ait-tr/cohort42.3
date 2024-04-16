@@ -1,4 +1,4 @@
-package classrork22.user;
+package classwork22.user;
 
 public class UserAppl {
 

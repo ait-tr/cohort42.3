@@ -1,35 +1,36 @@
 package homework21.computer_shop.computershop.model;
 
+import java.math.BigInteger;
 import java.util.Objects;
 
 public class Computer {
-    public static final long BARCODE_LENGTH = 15;
+    public static final long BARCODE_LENGTH = 20;
 
     private String brand;
     private String cpu;
     private int ram;
-    private long msn; // BigInteger
+    private BigInteger msn;
 
-    public Computer(String brand, String cpu, int ram, long msn) {
+    public Computer(String brand, String cpu, int ram, BigInteger msn) {
         this.brand = brand;
         this.cpu = cpu;
         this.ram = ram;
         this.msn = checkMsn(msn);
     }
 
-    private long checkMsn(long msn) {
+    private BigInteger checkMsn(BigInteger msn) {
         if (countDigit(msn) == BARCODE_LENGTH) {
             return msn;
         }
-        return -1;
+        return BigInteger.valueOf(-1);
     }
 
-    private int countDigit(long msn) {
+    private int countDigit(BigInteger msn) {
         int count = 0;
         do {
             count++;
-            msn = msn / 10;
-        } while (msn != 0);
+            msn = msn.divide(BigInteger.TEN);
+        } while (msn.compareTo(BigInteger.ZERO) > 0);
         return count;
     }
 
@@ -58,7 +59,7 @@ public class Computer {
         this.ram = ram;
     }
 
-    public long getMsn() {
+    public BigInteger getMsn() {
         return msn;
     }
 
@@ -74,13 +75,18 @@ public class Computer {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Computer computer)) return false;
-        return msn == computer.msn;
+        if (this == o) {
+            return true;
+        }
+        if (!(o instanceof Computer computer)) {
+            return false;
+        }
+        return ram == computer.ram && Objects.equals(brand, computer.brand)
+                && Objects.equals(cpu, computer.cpu) && Objects.equals(msn, computer.msn);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(msn);
+        return Objects.hash(brand, cpu, ram, msn);
     }
 }

@@ -2,6 +2,8 @@ package homework21.computer_shop.computershop.controller;
 
 import homework21.computer_shop.computershop.model.Computer;
 
+import java.math.BigInteger;
+
 public class Stock {
     private Computer[] computers;
     private int size;
@@ -24,19 +26,19 @@ public class Stock {
         return true;
     }
 
-    private Computer findComputer(long msn) {
+    private Computer findComputer(BigInteger msn) {
         for (int i = 0; i < size; i++) {
-            if (computers[i].getMsn() == msn) {
+            if (computers[i].getMsn().equals(msn)) {
                 return computers[i];
             }
         }
         return null;
     }
 
-    public Computer removeComputer(long msn) {
+    public Computer removeComputer(BigInteger msn) {
         Computer victim = null;
         for (int i = 0; i < size; i++) {
-            if (computers[i].getMsn() == msn) {
+            if (computers[i].getMsn().equals(msn)) {
                 victim = computers[i];
                 computers[i] = computers[size - 1];
                 computers[size - 1] = null;
@@ -57,4 +59,5 @@ public class Stock {
         }
         System.out.println("______________________________________________ ");
     }
+
 }

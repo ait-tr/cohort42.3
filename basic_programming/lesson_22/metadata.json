@@ -3,9 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "/code/classrork22/string_exercise/StringAppl.java",
-    "/code/classrork22/user/User.java",
-    "/code/classrork22/user/UserAppl.java",
+    "/code/classwork22/string_exercise/StringAppl.java",
+    "/code/classwork22/user/User.java",
+    "/code/classwork22/user/UserAppl.java",
     "/code/homework21/ArgumentsAppl/ArgsAppl.java",
     "/code/homework21/computer_shop/computershop/controller/Stock.java",
     "/code/homework21/computer_shop/computershop/model/Computer.java",

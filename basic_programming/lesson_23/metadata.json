@@ -3,13 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "/code/classwork22/string_exercise/StringAppl.java",
-    "/code/classwork22/user/User.java",
-    "/code/classwork22/user/UserAppl.java",
-    "/code/homework21/ArgumentsAppl/ArgsAppl.java",
-    "/code/homework21/computer_shop/computershop/controller/Stock.java",
-    "/code/homework21/computer_shop/computershop/model/Computer.java",
-    "/code/homework21/computer_shop/computershop/ComputerShop.java"
-
+    "code/classwork_23/sentence_test/Sentence.java",
+    "code/classwork_23/sentence_test/SentenceTest.java:",
+    "code/classwork_23/student/Student.java",
+    "code/classwork_23/student/StudentTest.java",
+    "code/homework22/string_exercises/Sentence.java",
+    "code/homework22/string_exercises/StringJava.java"
     ]
 }

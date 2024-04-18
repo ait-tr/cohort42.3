@@ -1,6 +1,43 @@
 # Lesson plan No. 23 04/18/2024
 
+1. What did we learn and do in the last lesson?
+   String class and its methods:
+   - length - ...,
+   - charAt - ...,
+   - equalsIgnoreCase - ...,
+   - toUpperCase - ...,
+   - toLowerCase - ...,
+   - indexOf - ...,
+   - lastIndexOf - ...,
+   - substring - ...,
+   - replace - ...
 
+Method string.split() - ...
+regex is...
+
+
+2. Homework - do you have any questions?
+- working with the line "I'm proud to learn Java! Java is the most famous programming language!!!";
+- working with the string entered by the user;
+- counting words and symbols in a sentence.
+  Any questions?
+
+3. Topic of the lesson:
+   TDD - test driven development
+   Unit tests
+   see theory section.
+
+4. Practice:
+
+Rear 1.
+Create a Student class and in it a method that calculates the student's GPA based on his semester grades.
+Write a test that tests this method.
+
+Task 2.
+Develop tests for methods that work with sentences - determining the number of words and the number of letters.
+
+Task 3.
+Write tests for the setEmail and setPassword methods.
 
 ---------------------------------
 
@@ -36,7 +73,8 @@ regex - это...
 4. Практика:
 
 Задние 1.
-Создайте класс Student и в нем метод, который рассчитывает средний балл студента по его оценкам за семестр. Напишите тест, который проверяет данный метод.
+Создайте класс Student и в нем метод, который рассчитывает средний балл студента по его оценкам за семестр. 
+Напишите тест, который проверяет данный метод.
 
 Задание 2.
 Разработать тесты для методов, которые работают с предложением - определение кол-ва слов и кол-ва букв.

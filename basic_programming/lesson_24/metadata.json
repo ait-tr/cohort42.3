@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+      "code/classwork_24/HashCodeExample.java",
+      "code/classwork_24/StringBuilderExample.java",
+      "code/classwork_24/AbstractExample.java",
+      "code/classwork_24/Shape.java"
+    ]
+}

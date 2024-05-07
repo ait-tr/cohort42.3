@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork_27/static_example/StaticMethod.java",
+    "code/classwork_27/static_example/Main.java",
+    "code/classwork_27/static_example/Main2.java",
+    "code/classwork_27/static_example/Car.java",
+    "code/classwork_27/final_example/Main4.java",
+    "code/classwork_27/final_example/Main5.java",
+    "code/classwork_27/final_example/Main2.java",
+    "code/classwork_27/final_example/Car.java",
+    "code/classwork_27/final_example/Main3.java",
+    "code/classwork_27/Main.java",
+    "code/classwork_27/notes.md",
+    "code/classwork_27/Constants.java"
+  ]
+}

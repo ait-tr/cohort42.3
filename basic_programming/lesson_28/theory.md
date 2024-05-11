@@ -1,4 +1,4 @@
-# Lesson 27
+# Lesson 28
 
 **Презентация 1**: [l28_interfaces.pdf](https://github.com/ait-tr/cohort42.3/blob/main/basic_programming/lesson_28/presentation/l28_interfaces.pdf)
 

@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork_30/AbstractClassExampleApp.java",
+    "code/classwork_30/calculator/LambdaApp.java",
+    "code/classwork_30/calculator/Calculator.java",
+    "code/classwork_30/calculator/App.java",
+    "code/classwork_30/CriticalGopnicSituationApp.java",
+    "code/classwork_30/Greeting.java",
+    "code/classwork_30/button/Button.java",
+    "code/classwork_30/button/App.java",
+    "code/classwork_30/button/Action.java",
+    "code/classwork_30/lambda_button/Button.java",
+    "code/classwork_30/lambda_button/App.java",
+    "code/classwork_30/lambda_button/Action.java",
+    "code/classwork_30/Main.java",
+    "code/classwork_30/AnonymousExampleApp.java",
+    "code/classwork_30/FirstTimeInSchoolApp.java"
+  ]
+}

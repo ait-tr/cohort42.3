@@ -1,3 +1,4 @@
-# Lesson 30
+# Lesson 29
 
-**Презентация**: [l30_anon-class_lambda.pdf](https://github.com/ait-tr/cohort42.3/blob/main/basic_programming/lesson_28/presentation/l30_anon-class_lambda.pdf)
+**Презентация**: [l29_nested-class.pdf](https://github.com/ait-tr/cohort42.3/blob/main/basic_programming/lesson_28/presentation/l29_nested-class.pdf)
+

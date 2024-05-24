@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork_28/IntArrayListApp.java",
+    "code/classwork_28/IntArrayList.java",
+    "code/classwork_28/ArrayExample2.java",
+    "code/classwork_28/interfaces/Example2.java",
+    "code/classwork_28/interfaces/MakeSound.java",
+    "code/classwork_28/interfaces/figures/Drawable.java",
+    "code/classwork_28/interfaces/figures/Fillable.java",
+    "code/classwork_28/interfaces/figures/Circle.java",
+    "code/classwork_28/interfaces/figures/Main.java",
+    "code/classwork_28/interfaces/figures/Square.java",
+    "code/classwork_28/interfaces/AbstractExample1.java",
+    "code/classwork_28/ArrayExample.java"
+  ]
+}

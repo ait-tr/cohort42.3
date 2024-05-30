@@ -10,6 +10,9 @@ public class Conditions {
         int x = 30;
         int y = 5;
 
+        boolean check = x > y;
+        System.out.println(check);
+
         if(x + y > 0) {
             System.out.println(x + y + " : this is POSITIVE number");
         } else {

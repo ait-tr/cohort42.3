@@ -9,6 +9,8 @@ import classwork_32.company.model.Worker;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CompanyImplTest {
@@ -98,8 +100,11 @@ class CompanyImplTest {
     @Test
     void findEmployeeSalaryRange() {
         company.printEmployee();
-        Employee[] actual = company.findEmployeeSalaryRange(2900, 6000);
+        Employee[] actual = company.findEmployeeSalaryRange(2900.0, 6000.0);
         Employee[] expected = {e[0], e[2]};
+        System.out.println(Arrays.toString(actual));
         assertArrayEquals(expected, actual);
     }
+
+
 }

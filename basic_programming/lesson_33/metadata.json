@@ -3,13 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork_32/company/dao/Company.java",
-    "code/classwork_32/company/dao/CompanyImpl.java",
-    "code/classwork_32/company/model/Employee.java",
-    "code/classwork_32/company/model/Manager.java",
-    "code/classwork_32/company/model/SalesManager.java",
-    "code/classwork_32/company/model/Worker.java",
-    "code/classwork_32/company/tests/CompanyImplTest.java"
+    "code/classwork_33/cats/Cat.java",
+    "code/classwork_33/cats/CatTest.java",
+    "code/classwork_33/json_wrapper/wrapper1/JsonWrapper.java",
+    "code/classwork_33/json_wrapper/wrapper1/JsonWrapperAppl.java",
+    "code/classwork_33/json_wrapper/wrapper2/JsonWrapper2.java",
+    "code/classwork_33/json_wrapper/wrapper2/JsonWrapperAppl2.java"
 
   ]
 }

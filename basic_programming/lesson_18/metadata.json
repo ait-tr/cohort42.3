@@ -3,11 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "/code/homework/supermarket/model/child/Food.java",
-    "/code/homework/supermarket/model/child/MeatFood.java",
-    "/code/homework/supermarket/model/child/MilkFood.java",
-    "/code/homework/supermarket/model/parent/Product.java",
-    "/code/homework/supermarket/MarketAppl.java"
-
+    "code/homework/supermarket/model/child/Food.java",
+    "code/homework/supermarket/model/child/MeatFood.java",
+    "code/homework/supermarket/model/child/MilkFood.java",
+    "code/homework/supermarket/model/parent/Product.java",
+    "code/homework/supermarket/MarketAppl.java"
     ]
 }

@@ -27,7 +27,7 @@ class CatTest {
     void testCatSort() {
         System.out.println("===========Test Cat sorting===========");
         printArray(cat);
-        Arrays.sort(cat); // производим сортировку
+        Arrays.sort(cat); // производим сортировку в соответствии с тем полем, которое указано в методе compareTo
         System.out.println("--------After sorting by age------------");
         printArray(cat);
     }

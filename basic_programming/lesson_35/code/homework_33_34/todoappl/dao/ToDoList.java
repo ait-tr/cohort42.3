@@ -1,6 +1,6 @@
-package homework_34.todoappl.dao;
+package homework_33_34.todoappl.dao;
 
-import homework_34.todoappl.model.Task;
+import homework_33_34.todoappl.model.Task;
 
 public interface ToDoList {
     // add Task

@@ -1,6 +1,6 @@
-package homework_34.todoappl.dao;
+package homework_33_34.todoappl.dao;
 
-import homework_34.todoappl.model.Task;
+import homework_33_34.todoappl.model.Task;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -16,7 +16,7 @@ public class ToDoListImpl implements ToDoList {
 
     // constructor
     public ToDoListImpl(int capacity){
-        tasks = new Task[capacity];
+        tasks = new Task[capacity]; // можно использовать ArrayList
         this.quantity = 0;
     }
 

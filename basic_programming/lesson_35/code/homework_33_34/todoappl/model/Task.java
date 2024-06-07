@@ -1,4 +1,4 @@
-package homework_34.todoappl.model;
+package homework_33_34.todoappl.model;
 
 import java.util.Objects;
 

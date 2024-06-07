@@ -1,4 +1,4 @@
-package homework_34.todoappl.model;
+package homework_33_34.todoappl.model;
 
 public enum Menu {
     ADD(1, "Add task"), LIST(2, "List of tasks"), REMOVE(3, "Remove task"), EXIT(4, "Exit");

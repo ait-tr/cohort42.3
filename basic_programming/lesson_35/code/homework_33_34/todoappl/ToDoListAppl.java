@@ -1,8 +1,8 @@
-package homework_34.todoappl;
+package homework_33_34.todoappl;
 
-import homework_34.todoappl.dao.ToDoListImpl;
-import homework_34.todoappl.model.Menu;
-import homework_34.todoappl.model.Task;
+import homework_33_34.todoappl.dao.ToDoListImpl;
+import homework_33_34.todoappl.model.Menu;
+import homework_33_34.todoappl.model.Task;
 
 import java.util.Scanner;
 

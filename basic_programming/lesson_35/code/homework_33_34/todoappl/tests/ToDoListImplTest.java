@@ -1,4 +1,4 @@
-package homework_34.todoappl.tests;
+package homework_33_34.todoappl.tests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

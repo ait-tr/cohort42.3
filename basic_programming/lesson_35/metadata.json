@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork_34/coffee/Coffee.java",
+    "code/classwork_34/coffee/CoffeeAppl.java",
+    "code/classwork_34/month/Month.java",
+    "code/classwork_34/month/MonthAppl.java",
+    "code/classwork_34/seasons/Season.java",
+    "code/classwork_34/seasons/SeasonAppl.java"
+
+  ]
+}

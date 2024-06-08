@@ -3,10 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork20/library/controller/Library.java",
-    "code/classwork20/library/model/Book.java",
-    "code/classwork20/library/LibraryAppl.java",
-    "code/homework19/Computer.java"
-
+    "code/homework20/computershop/controller/Stock.java",
+    "code/homework20/computershop/model/Computer.java",
+    "code/homework20/computershop/ComputerShop.java",
+    "code/classwork21/wrapper_classes/WrapperClassAppl.java",
+    "code/classwork21/arguments/ArgsApplExample.java"
     ]
 }

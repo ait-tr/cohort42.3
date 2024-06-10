@@ -1,4 +1,48 @@
+# Lesson plan No. 35 06/07/2024
 
+0. Upcoming topics:
+- Java Time API
+- Algorithms and O-notation (assessing the complexity of algorithms)
+- Java Collection Framework
+  -Set
+- Map
+- Collections
+- Stream API
+------------------------------------
+
+1. What we did in the last lesson:
+- studied Enum, created Month
+  Methods tried:
+- .values() - this method...
+- .toString - this method...
+- .ordinal() - this method...
+- .valueOf() - this method...
+
+
+2. We analyze homework:
+- Comparable and Comparator interface using the example of the City class
+- development of the ToDoList application
+
+3. New topic:
+- Java Time API - see theory section
+
+4. Workshop:
+
+- **Working with dates:**
+- find out the current date and time
+- is there a date, what day of the week was it? day of the month? day of the year?
+- there is a date, how can I find out if it was earlier? or later?
+
+- **Time travel**
+- to the future currentDay.plus
+- to the past currentDay.minus
+- use of ChronoUnit
+
+- **Getting a time interval**
+
+**Sort array by time**
+
+--------------------------------------------
 
 # План занятия №35 07.06.2024
 
@@ -42,12 +86,4 @@
 
 - **Получение интервала времени**
 
-**Сортировка массива по времени**
-
-**Date Formatter**
-
-**Парсинг даты из строки**
-
-**Разработка приложения Album**
-в котором есть поле с датой
-- см. UML - схему album.jpg 
+- **Сортировка массива по времени**

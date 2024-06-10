@@ -2,6 +2,8 @@ package homework_35.books;
 
 import java.util.Objects;
 
+// code by Yuliia Dietz
+
 public class Book implements Comparable<Book>{
     private long isbn;
     private String title;

@@ -1,3 +1,45 @@
+# Lesson plan No. 36 06/10/2024
+
+1. What we did in the last lesson:
+- studied the Java Time API
+
+- **Working with dates:**
+- find out the current date and time: you can use the method ...
+- is there a date, what day of the week was it? day of the month? day of the year? we use the method...
+- there is a date, how can I find out if it was earlier? or later? we use the method...
+
+- **Time travel**
+- to the future ...
+- to the past...
+- using ChronoUnit, what they are...
+
+- **Getting a time interval**
+- between method
+- compareTo method
+
+- **Sort array by time**
+- what class and method is used for this?
+
+2. We analyze homework:
+- Books
+- Cars
+
+3. New topic:
+   Java Time API
+- **Date Formatter** and **parsing date from string**
+
+- inserting an object while maintaining the sort order:
+- Step 1: use BinarySearch to find the index to insert the element
+- Step 2: use the Arrays.copyOf, Arrays.copyOfRange, System.arraycopy methods
+
+4. Workshop:
+
+- **Date Formatter** and **parsing date from string**
+
+- array of objects **City**: inserting an object while maintaining the sort order
+- use of the Arrays.copyOf, Arrays.copyOfRange, System.arraycopy methods
+
+- **Album** application - development using a UML diagram
 
 ---------------------------------------------------
 

@@ -7,6 +7,8 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// code by Alexander Anischenko
+
 class CarTest {
     Car[] cars;
 

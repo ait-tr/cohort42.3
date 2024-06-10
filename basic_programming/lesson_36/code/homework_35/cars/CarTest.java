@@ -44,5 +44,4 @@ class CarTest {
         printArray(cars, "list of cars sorted by brand");
     }
 
-
 }

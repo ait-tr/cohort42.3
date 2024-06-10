@@ -35,6 +35,7 @@ class BookTest {
     void testPrint(){
         printArray(books, "List of our books that we placed in our setUp method");
     }
+
     @Test
     void testNativeSorting(){
         printArray(books, "List of our books that we placed in our setUp method");
@@ -44,7 +45,7 @@ class BookTest {
 
     @Test
     void testComparator() {
-        //Comparator<Book> comparator = (b1, b2) -> (int)(b1.getYearOfPublishing() - b2.getYearOfPublishing());
+        // Comparator<Book> comparator = (b1, b2) -> b1.getYearOfPublishing() - b2.getYearOfPublishing();
         Comparator<Book> comparator1 = (b1, b2) -> Integer.compare(b1.getYearOfPublishing(), b2.getYearOfPublishing());
         // lambda expression
         printArray(books, "Before sorting");

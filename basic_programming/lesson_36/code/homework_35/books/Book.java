@@ -11,7 +11,7 @@ public class Book implements Comparable<Book>{
     private int yearOfPublishing;
 
     public Book(long isbn, String title, String author, int yearOfPublishing) {
-        this.isbn = isbn;
+        this.isbn = isbn; // 13 digits
         this.title = title;
         this.author = author;
         this.yearOfPublishing = yearOfPublishing;
@@ -75,7 +75,8 @@ public class Book implements Comparable<Book>{
     public int compareTo(Book o) {
         int res = this.author.compareTo(o.author); // сортируем по автору
         if(res == 0){ // если книги одного автора
-            res = Integer.compare(this.yearOfPublishing, o.yearOfPublishing); // то сортируем по году издания
+            res = this.yearOfPublishing - o.yearOfPublishing;
+            // res = Integer.compare(this.yearOfPublishing, o.yearOfPublishing); // то сортируем по году издания
         }
         return res;
     }

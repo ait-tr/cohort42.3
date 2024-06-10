@@ -91,8 +91,8 @@ public class Car implements Comparable<Car>{
         if (res != 0) { // если бренды НЕ совпали
             return res; // вернули результат сравнения
         } else {
-            res = Integer.compare(this.mileage, o.mileage); // иначе сортируем по пробегу
-            // res = this.mileage - o.mileage;
+            // res = Integer.compare(this.mileage, o.mileage); // иначе сортируем по пробегу
+            res = (this.mileage - o.mileage);
         }
         return res;
     }

@@ -75,12 +75,6 @@ public class City implements Comparable<City>{
 
     @Override
     public int compareTo(City o) {
-        int res = this.name.compareTo(o.name); // compare by name
-        if(res !=0 ){ // если res не равен 0
-            return res; // то он нас устраивает, то есть по нему и будет сортировка
-        } else {
-            res = this.population - o.population; // сортировка по population
-        }
-        return res;
+        return Integer.compare(this.population, o.population); // native sorting by population
     }
 }

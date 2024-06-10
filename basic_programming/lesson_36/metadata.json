@@ -3,15 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork_35/TimeApiAppl.java",
-    "code/homework_33_34/city_comparable/City.java",
-    "code/homework_33_34/city_comparable/CityTest.java",
-    "code/homework_33_34/todoappl/dao/ToDoList.java",
-    "code/homework_33_34/todoappl/dao/ToDoListImpl.java",
-    "code/homework_33_34/todoappl/model/Menu.java",
-    "code/homework_33_34/todoappl/model/Task.java",
-    "code/homework_33_34/todoappl/tests/ToDoListImplTest.java",
-    "code/homework_33_34/todoappl/ToDoListAppl.java"
+    "code/classwork_36/city_arrays/City.java",
+    "code/classwork_36/city_arrays/CityTest.java",
+    "code/classwork_36/date_time_formatter/TimeFormat.java",
+    "code/homework_35/books/Book.java",
+    "code/homework_35/books/BookTest.java",
+    "code/homework_35/cars/Car.java",
+    "code/homework_35/cars/CarTest.java"
 
   ]
 }

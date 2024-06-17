@@ -3,10 +3,16 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/classwork_37/album/dao/Album.java",
-    "code/classwork_37/album/dao/AlbumImpl.java",
-    "code/classwork_37/album/model/Photo.java",
-    "code/classwork_37/album/tests/AlbumImplTest.java"
+    "code/classwork_38/album/dao/Album.java",
+    "code/classwork_38/album/model/Photo.java",
+    "code/classwork_38/album/tests/AlbumImplTest.java",
+    "code/classwork_38/complexity/ComplexityAppl.java",
+    "code/homework_37/doc_archive/dao/Archive.java",
+    "code/homework_37/doc_archive/dao/ArchiveImpl.java",
+    "code/homework_37/doc_archive/model/Document.java",
+    "code/homework_37/doc_archive/model/Menu.java",
+    "code/homework_37/doc_archive/tests/ArchiveImplTest.java",
+    "code/homework_37/doc_archive/ArchiveAppl.java"
 
   ]
 }

@@ -39,7 +39,7 @@ class AlbumImplTest {
         // foreach
         for (Photo p : ph) {
             album.addPhoto(p);
-            System.out.println(p);
+            // System.out.println(p);
         }
     }
 

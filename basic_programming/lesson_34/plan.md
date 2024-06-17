@@ -1,4 +1,51 @@
+<h3 style="text-align: center; padding-bottom: 14px">2024-02-02</h3>
 
+# Lesson plan No. 34 06/03/2024
+
+1. What we did in the last lesson:
+
+- created the CompanyAppl application, in which:
+- created a company object based on the CompanyImpl class, which implemented the Company interface, in which we specified the methods that we needed.
+- developed an application based on this object and its methods (methods are called in the following way: we write the object and put . and the method appears)
+
+- got acquainted with new topics:
+- **Generics** (abstract classes, abstract methods, **abstract types**)
+
+- **Sorting an array of objects** - Comparable<T> and Comparator<T> interfaces
+  see Theory section
+
+2. Questions about homework:
+- Books - sort by author, year of publication
+- Computers - sort by RAM capacity, brand
+
+3. New topic:
+   Enum - see the Theory section.
+
+4. Workshop on Enum
+
+**Task 1.**
+Set ENUM seasons - seasons.
+// Try methods on it:
+// .values()
+// .toString
+// .ordinal()
+// .valueOf()
+
+**Task 2.**
+Set emun Month, determine the months, their names and the number of days in them.
+Implement a method that allows you to add months to the selected one, getting the correct month.
+Example: AUG + 6 month = FEB
+Check the method in the application.
+
+**Task 3.**
+Using enum, write a program to sell 4 types of coffee:
+ESPRESSO,
+AMERICANO,
+CAPPUCCINO,
+LATTE
+Offer the user a choice of coffee, and based on the selection results, inform the cost of the drink.
+
+_______________________
 
 # План занятия №34 03.06.2024
 

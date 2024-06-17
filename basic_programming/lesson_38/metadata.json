@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork_37/album/dao/Album.java",
+    "code/classwork_37/album/dao/AlbumImpl.java",
+    "code/classwork_37/album/model/Photo.java",
+    "code/classwork_37/album/tests/AlbumImplTest.java"
+
+  ]
+}

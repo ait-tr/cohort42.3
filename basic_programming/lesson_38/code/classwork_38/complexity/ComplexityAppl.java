@@ -24,6 +24,7 @@ public class ComplexityAppl {
         System.out.println("Average = " + avg);
 
         // Общая сложность: O(1) + O(n) + O(1) + O(1) = O(n)
+
         System.out.println("Before sorting: ");
         System.out.println(Arrays.toString(array));
 
@@ -48,6 +49,7 @@ public class ComplexityAppl {
         index = Arrays.binarySearch(array, 100);
         System.out.println(index);
 
+        // логарифмическая сложность  O(log(n))
         index = Arrays.binarySearch(array, 115);
         System.out.println(index);
 

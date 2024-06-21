@@ -1,7 +1,185 @@
 <details>
   <summary style="cursor: pointer;"><b>English</b></summary>
 
+# Java Collections Framework
 
+The Java Collections Framework (JCF) is an important part of Java Standard Edition (Java SE) and is a set of classes and interfaces that are designed to work with groups (sets) of objects.
+Collections make working with data easier by providing methods for storing, sorting, searching, and accessing items.
+
+The "iteration" property = "iteration" is the base (parent) property of all classes and interfaces that are available in JCF.
+
+## Iterator
+An iterator and iterations are a correct and safe way to iterate over the entire set of available elements.
+
+**System problem:**
+If an object encapsulates some set of elements within itself and there is a need to iterate
+all the elements of this set, then this may be a problem.
+If we create a getter to pass this set, then by returning the reference, we are essentially giving an unsafe
+accessing the elements of a set outside the object.
+A programmer who has received this access can modify an object (set of elements) without our knowledge - change the composition of elements, reduce its size, etc.
+
+**If you return a copy of the set, this can have a significant and negative impact on performance.**
+
+To solve this problem, there is an **Iterator pattern** (Iterable<> interface).
+
+The essence of the pattern is to create a third-party object that “knows how to iterate” (iterate) a set
+elements encapsulated in the original object.
+
+An iterator object must have two functionality (essentially methods):
+1) know how to determine whether there is a next element (boolean method);
+2) return the current element and move on to the next one (a method that returns the next element of the set).
+
+In Java, there is an Iterator<T> interface with two abstract methods:
+- boolean hasNext(), returning true if there are still elements, and false if we have reached the end of the set, and
+- T next(), returning the current element, and moving the "pointer" to the next element.
+
+The Iterator interface has an additional default method, void remove(),
+which has an empty body. But if we need to implement the functionality of correct deletion
+current element during iteration, the remove method must be overridden.
+
+The class encapsulating the set that needs to be iterated implements (inherits) the Iterable<T> interface,
+which has an abstract interface Iterator<T> iterator() and defines a method that returns an iterator for objects
+of this class.
+
+## Collection interface
+The Collection interface in Java is the base interface for all collections in the Java Collections Framework (JCF).
+It provides basic methods for working with groups of objects, such as adding, removing, checking for elements, and converting to an array.
+
+The Collection interface extends the Iterable interface, meaning all collections are iterable.
+The Collection interface defines a basic set of methods for working with collections of data.
+This is a set of CRUD operations: adding, deleting, searching, updating and other methods, for example, getting the number of elements in a collection, etc.
+
+This interface is the basis for more specialized interfaces such as:
+- List
+- Set (set)
+- Queue
+
+## Java Collection Framework
+
+Java Collection Framework (JCF) - a set (set) of classes and interfaces that are most often implemented
+data structures used.
+
+JCF consists of two large subsections: **Collection** and **Map**.
+We begin our study of JCF with collections.
+
+The **List<E>** interface contains methods for **lists**.
+- Provides work with an ordered collection of elements that **allows storing duplicates**.
+- Orderliness means that:
+- elements in the list are stored in the order in which they were added (**new elements are placed at the end of the list** as they are added, sorting does not occur when inserting).
+- Main methods:
+- get an element by its index using the get(int index) method
+- insert element add(int index, E element)
+- remove elements by index remove(int index)
+- update element by index set(int index, E element)
+- Search and selection of elements:
+- int indexOf(Object o);
+- int lastIndexOf(Object o);
+- List<E> subList(int fromIndex, int toIndex);
+
+Implementations of the List<T> interface:
+
+- **ArrayList<T>**:
+- Array based.
+- Quick access by index is its “+”.
+- Slowly deleting and inserting elements in the middle of the list is its "-".
+
+- **LinkedList<T>**:
+- Based on doubly linked list.
+- Quick insertion and removal of elements is its “+”
+- Slow index access is its "-".
+
+The Set interface contains methods for sets - a collection of **unique** elements.
+
+----------------------------------------------
+
+For Iterable objects you can use a for-each loop.
+Its syntax is:
+
+`for(T e: set_of_T){
+do something;
+}
+`
+In the body of this loop, the variable "e" takes in turn the value of each element from set_of_T
+
+**ATTENTION!!!**
+Modifications cannot be made in a for-each loop.
+
+----------------------------------------------
+
+# ArrayList - what is it and why?
+
+## Array concept:
+TYPE[] array_name = new TYPE[size];
+Arrays store data of the SAME TYPE (int, String, double, ...).
+
+Data can be stored in an array and then manipulated:
+**C - create, R - read, E|U - edit or update, D - delete = CRUD.**
+BUT arrays are "difficult" to work with - you need to keep an eye on the size.
+
+### Collections Framework:
+**Collection** in Java is a structure that provides
+architecture for storing and managing a group of **Objects**.
+
+**Collections** allow you to store groups of Objects, this is a much more general level abstraction,
+than arrays. Storing and managing collections is ultimately more convenient and simpler than arrays.
+
+To manage data in collections, you need **Interfaces** - methods of management/manipulation
+objects in collections. In general, interfaces provide approximately the same thing - **CRUD** of objects
+in collections, but their implementation can be specific due to differences in objects in collections.
+
+Someone on the Java Architects team thought very hard and identified a common property
+for stored data - **ITTERABLE**.
+
+The **Iterable** interface is the “parent” of three types of interfaces:
+- List
+- Queue
+- Set (Set),
+  which allow you to work with collections.
+
+Our task at this stage is to start working with the **ArrayList** class,
+which implements the List interface:
+* A list is a collection in which all elements have a serial number (index).
+
+The **ArrayList** class allows us to create objects of this class and use them.
+
+### The syntax for creating an ArrayList is:
+import java.util.ArrayList;
+
+ArrayList<Type>Arrayname = new ArrayList<>();
+
+**examples:**
+ArrayList<Integer> myNumbersList = new ArrayList<>(); // list of integers
+ArrayList<String> myNamesList = new ArrayList<>(); // list of strings
+
+# ArrayList details
+In a regular array (Array), we **cannot change the size**; it is set when the array is created.
+The ArrayList structure from JCF is dynamically sized, it expands automatically as more are added
+elements into it. When creating your own list based on ArrayList, the size is not specified.
+
+## Question: Is ArrayList a dynamic array?
+ArrayList - implemented on the basis of the standard Array.
+ArrayList creates a new array on the fly, rather than changing the size of the old one,
+and transfers the contents of the old array into it.
+The size of the array increases by 1.5 times each time a list element is added.
+**The size of an in-memory array cannot be changed on the fly in any programming language.**
+
+## Question: why is ArrayList better than just Array?
+- Adding and removing elements is easier in an ArrayList - no need to think about the size of the array
+- Searching, checking an element for presence is easier - we use the built-in contains() method
+- Sorting for ArrayList is implemented using standard methods in Collections; for Array you don’t need to write it yourself
+- Is it possible to add null to an ArrayList - the answer is YES
+- Is it possible to add duplicate(s) to ArrayList - the answer is YES
+- you can use a for each loop to go through the elements of the array, there are modification restrictions
+  at the time of traversal (it is not advisable to delete collection elements)
+
+## Question: is there an ArrayList of two or more dimensions?
+The answer is, roughly speaking, no, they don’t do that.
+In theory we can build an ArrayList<ArrayList1>.
+In practice, for tasks with multidimensional arrays it is better to use the standard Array[][].
+
+## ArrayList - direct filling with the asList method
+ArrayList<String> namesList = new ArrayList<String>(Arrays.asList("Peter","Vladimir","Stepan"));
+System.out.println(namesList);
 
 </details>
 
@@ -113,8 +291,6 @@ JCF состоит из двух больших подразделов: **Collec
 **ВНИМАНИЕ!!!**
 В цикле for-each нельзя модифицировать итерируемое множество.
 
-</details>
-
 ---------------------------------------------
 
 # ArrayList - что это и зачем?
@@ -191,3 +367,5 @@ ArrayList "на лету" создает новый массив, а не мен
 ## ArrayList - прямое заполнение методом asList
 ArrayList<String> namesList = new ArrayList<String>(Arrays.asList("Peter","Vladimir","Stepan"));
 System.out.println(namesList);
+
+</details>

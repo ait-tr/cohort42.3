@@ -4,8 +4,13 @@
   "homework": "homework.md",
   "code": [
 
-    "code/classwork_39/city_bus/Bus.java",
-    "code/classwork_39/city_bus/CityBusAppl.java"
+    "code/classwork_40/duplicates/NumbersNoDuplicate.java",
+    "code/classwork_40/post/PostAppl.java",
+    "code/classwork_40/sentence/Sentence.java",
+    "code/homework_39/alphabet/Alphabet.java",
+    "code/homework_39/sport/Menu.java",
+    "code/homework_39/sport/SportAppl.java",
+    "code/homework_39/sport/Sportsmen.java"
 
   ]
 }

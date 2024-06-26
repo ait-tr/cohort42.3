@@ -4,13 +4,11 @@
   "homework": "homework.md",
   "code": [
 
-    "code/classwork_40/duplicates/NumbersNoDuplicate.java",
-    "code/classwork_40/post/PostAppl.java",
-    "code/classwork_40/sentence/Sentence.java",
-    "code/homework_39/alphabet/Alphabet.java",
-    "code/homework_39/sport/Menu.java",
-    "code/homework_39/sport/SportAppl.java",
-    "code/homework_39/sport/Sportsmen.java"
+    "code/classwork_41/treeset/Car.java",
+    "code/classwork_41/treeset/TreeSetCarExample.java",
+    "code/classwork_41/treeset/TreeSetExampleNumber.java",
+    "code/classwork_41/treeset/TreeSetExampleString.java",
+    "code/homework_40/CurrencyAppl.java",
+    "code/homework_40/SentrnceWords.java"
 
-  ]
 }

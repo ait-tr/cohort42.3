@@ -1,4 +1,6 @@
-package classwork_41.car_garage.model;
+package classwork_42.car_garage.model;
+
+import java.util.Objects;
 
 public class Car {
 	private String regNumber;
@@ -50,32 +52,14 @@ public class Car {
 	}
 
 	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((regNumber == null) ? 0 : regNumber.hashCode());
-		return result;
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (!(o instanceof Car car)) return false;
+        return Objects.equals(regNumber, car.regNumber);
 	}
 
 	@Override
-	public boolean equals(Object obj) {
-		if (this == obj) {
-			return true;
-		}
-		if (obj == null) {
-			return false;
-		}
-		if (!(obj instanceof Car)) {
-			return false;
-		}
-		Car other = (Car) obj;
-		if (regNumber == null) {
-			if (other.regNumber != null) {
-				return false;
-			}
-		} else if (!regNumber.equals(other.regNumber)) {
-			return false;
-		}
-		return true;
+	public int hashCode() {
+		return Objects.hashCode(regNumber);
 	}
 }

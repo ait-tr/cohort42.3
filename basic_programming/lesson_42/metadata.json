@@ -5,8 +5,11 @@
   "code": [
 
     "code/classwork_42/car_garage/dao/Garage.java",
+    "code/classwork_42/car_garage/dao/GarageArrayListImpl.java",
+    "code/classwork_42/car_garage/dao/GarageHashSetImpl.java",
     "code/classwork_42/car_garage/dao/GarageImpl.java",
     "code/classwork_42/car_garage/model/Car.java",
     "code/classwork_42/car_garage/tests/GarageTest.java"
+
 ]
 }

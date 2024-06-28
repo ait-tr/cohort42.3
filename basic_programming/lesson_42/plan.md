@@ -2,7 +2,43 @@
 
 # Lesson plan No. 42 06/28/2024
 
+1. What we did in the last lesson:
+- created a TreeSet with integers
+- created a TreeSet with strings
+- created a TreeSet with objects of type Car
 
+What are the advantages of TreeSet?
+- ...
+- ...
+
+What are the advantages of ArrayList?
+- no need to think about the size, it expands itself as needed (initial capacity 10 elements, 1.5 times)
+- no need to think about reindexing when inserting an element
+- each element has an index
+- quick addition to the end of the list
+- you can make duplicates
+- can be sorted
+  Flaws:
+- slowly adding an element to the middle or beginning of the list
+- allows for duplicates
+
+What are the advantages of HashSet?
+- does not contain duplicates
+- quick insertion, element search
+  Flaw:
+- no order
+- no access by index
+- sorting is not possible
+
+2. Homework:
+
+Implement the Garage application according to the UML diagram.
+
+3.Workshop:
+Change GarageImpl implementation:
+- there is Car[] cars;
+- must be replaced with ArrayList;
+- evaluate the computational load of the new implementation.
 
 ___
 

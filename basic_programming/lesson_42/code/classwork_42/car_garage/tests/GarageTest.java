@@ -2,7 +2,7 @@ package classwork_42.car_garage.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import classwork_42.car_garage.dao.GarageArrayListImpl;
+import classwork_42.car_garage.dao.GarageImpl;
 import classwork_42.car_garage.model.Car;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,9 +18,9 @@ public class GarageTest {
     @BeforeEach
     public void setUp() throws Exception {
         
-        // garage = new GarageImpl(5);
+        garage = new GarageImpl(5);
 
-        garage = new GarageArrayListImpl(5);
+        // garage = new GarageArrayListImpl(5);
 
         cars = new Car[4];
         cars[0] = new Car("Number1", "Model1", "Company1", 1.5, "Red");

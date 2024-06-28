@@ -1,47 +1,21 @@
 <h3 style="text-align: center; padding-bottom: 14px">2024-02-02</h3>
 
-# Lesson plan No. 41 06/26/2024
+# Lesson plan No. 42 06/28/2024
 
-1. What we did in the last lesson:
-- created a HashSet, removed duplicates from an array of integers
-- counted the number of unique words in a sentence
-- made an application for mail that...
-
-What are the advantages of ArrayList?
-- ...
-
-What are the advantages of HashSet?
-- ...
-
-2. Homework:
-- number of words, symbols in a sentence;
-- input of currencies.
-
-3. New theme - TreeSet:
-   see Theory section.
-
-3.Workshop:
-- create a TreeSet with integers
-- create a TreeSet with strings
-- скуфеу ф ЕкууЫуе цшер щиоусеы ща ензу Сфк
 
 
 ___
 
-# План занятия №41 26.06.2024
+# План занятия №42 28.06.2024
 
 1. Что мы сделали на прошлом занятии:
-- создавали HashSet, удаляли дубликаты из массива целых чисел
-  - есть массив целых чисел с дубликатами, необходимо очистить от дубликатов
-  - перекладываем весь массив в HashSet
-    - при вкладывании элемента вычисляется Hash и при его совпадении элемент НЕ добавляется
-    
-- подсчитали кол-во уникальных слов в предложении
-  - String[] words = sentence.split(" ")
-  - затем массив строк => в HashSet ...
-  
-- сделали приложение для почты, которое позволяло добавлять Post Code и при этом сохранялись ТОЛЬКО уникальные.
-Оператор вводил индексы с почтовых конвертов. На выходе - короткий список уникальных индексов.
+- создали TreeSet c целыми числами
+- создали TreeSet cо строками
+- создали TreeSet с объектами типа Car
+
+В чем преимущества TreeSet?
+- ...
+- ...
 
 В чем преимущества ArrayList?
 - не надо думать о размере, он сам расширяется по мере необходимости (initial capacity 10 элементов, в 1,5 раза)
@@ -63,16 +37,14 @@ ___
 - не возможна сортировка 
 
 2. Домашние задания:
-- кол-во слов, символов в предложении;
-- ввод валют.
 
-3. Новая теема - TreeSet:
-см. раздел Теория.
+Реализовать приложение Garage согласно UML-схеме.
 
 3.Практикум:
-- создаем TreeSet c целыми числами
-- создаем TreeSet cо строками
-- создаем TreeSet с объектами типа Car
+Изменить реализацию GarageImpl:
+- имеется Car[] cars;
+- необходимо заменить на ArrayList;
+- оценить вычислительную нагрузку новой имплементации.
 
  
 

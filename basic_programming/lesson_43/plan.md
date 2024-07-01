@@ -2,7 +2,40 @@
 
 # Lesson plan No. 43 07/01/2024
 
+1. What we did in the last lesson:
+- implemented Car-Garage on ArrayList
+- assessed the computational complexity of implementation on ArrayList:
+- create (add) - ...
+- read (find) - ...
+- update...
+- delete (remove) - ...
 
+- implemented Car-Garage on HashSet:
+- create (add) - ...
+- read (find) - ...
+- update...
+- delete (remove) - ...
+
+2. Homework:
+   Refactor one of your projects:
+- Book-Library
+- Document-Archive
+  -ToDoList
+- ...
+  to ArrayList or HashSet.
+  Justify your choice by assessing the computational complexity.
+
+Who did what project and what JCF structure did they choose?
+Why?
+
+3. New topic:
+   Map structure - see Theory section.
+
+4.Workshop:
+Change GarageImpl implementation:
+- there is Car[] cars;
+- must be replaced with ArrayList;
+- evaluate the computational load of the new implementation.
 
 ___
 

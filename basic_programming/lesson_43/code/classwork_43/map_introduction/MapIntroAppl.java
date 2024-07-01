@@ -7,62 +7,67 @@ import java.util.TreeMap;
 
 public class MapIntroAppl {
     public static void main(String[] args) {
-        // Создадим мапу, отражающую кол-во людей (население) в городах США
 
-        Map< String, Integer> usaCities = new TreeMap<>(); // создали объект типа Map
+        // Создадим Map, которая содержит наименование горда и его население
+
+        // key - это город, тип String
+        // value - это население, тип Integer
+
+        Map<String, Integer> usaCities = new TreeMap<>(); // create object, type of object - TreeMap
         usaCities.put("Denver", 600_000);
         usaCities.put("Boston", 670_000);
         usaCities.put("Chicago", 2_700_000);
         usaCities.put("Atlanta", 470_000);
         usaCities.put("New York", 8_500_000);
         usaCities.put("Dallas", 1_300_000);
-        usaCities.replace("Dallas", 1_300_010); // обновили значение
-        System.out.println("Map size = " + usaCities.size());
-        System.out.println("Is empty: " + usaCities.isEmpty());
+        usaCities.replace("Dallas", 1_300_010); // update
 
-        // получение значения по ключу
-        Integer num = usaCities.get("Chicago");
-        System.out.println(num);
-        int pop = usaCities.get("Atlanta");
-        System.out.println(pop);
+        // map size
+        System.out.println(usaCities.size()); // 6
+        System.out.println(usaCities.isEmpty()); // false
 
-        // проверка ключа на наличие в мапе
-        System.out.println(usaCities.containsKey("Boston")); // ожидаем true
-        System.out.println(usaCities.containsKey("Detroit")); // ожидаем false
+        int population = usaCities.get("Chicago");
+        System.out.println("Population of Chicago is: " + population);
+        int population1 = usaCities.get("Atlanta");
+        System.out.println("Population of Atlanta is: " + population1);
 
-        // обновим значение в мапе по ключу
-        num = usaCities.put("Chicago", 2_700_001); // изменили значение
-        System.out.println(num); // это старое значение переменной ()
-        System.out.println(usaCities.get("Chicago")); // вытаскиваем значение
-        num = usaCities.put("Chicago", 2_700_002);
-        System.out.println(num);
+        // check key
+        System.out.println(usaCities.containsKey("Boston"));//true
+        System.out.println(usaCities.containsKey("Texas"));//false
 
-        Collection<Integer> population = usaCities.values(); // вытащили значения в коллекцию
+        // 1st approach
+        Collection<Integer> totalPopulation = usaCities.values(); // create new object
         int total = 0;
 
-        for (Integer i : population) {
+        for (Integer i : totalPopulation) {
+            // total = total + i;
             total += i;
         }
+        System.out.println("Total population in cities: " + total);
 
-        System.out.println("Population: " + total);
+        // 2nd approach
+        Set<String> setOfCities = usaCities.keySet();
+        total = 0;
+        for (String str : setOfCities) {
+            total += usaCities.get(str);
+        }
+        System.out.println("Total population in cities: " + total);
 
-        // распечатаем содержимое мапы
-        System.out.println("======= Print Map========");
+        // print map
+        System.out.println("============= Print Map ==================");
         Set<String> keys = usaCities.keySet();
-        for (String key : keys) {
-            System.out.println(key + " -> " + usaCities.get(key));
+        for (String str : keys) {
+            System.out.println(str + " name of city");
         }
 
-        //еще другой способ
-        System.out.println("======= Print Map another time========");
+        // print map using Entry
         Set<Map.Entry<String, Integer>> entries = usaCities.entrySet();
-        for (Map.Entry<String, Integer> entry : entries) {
+
+        for (Map.Entry<String, Integer>  entry : entries) {
             System.out.println(entry.getKey() + " => " + entry.getValue());
         }
 
-        //еще другой способ
-        System.out.println("======= Print Map another time========");
+        // print map another time
         System.out.println(usaCities.entrySet());
-
     }
 }

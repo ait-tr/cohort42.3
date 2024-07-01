@@ -95,8 +95,8 @@ collections are carried out using a **key** (I remind you that it must be unique
 Еще одной частью JCF является интерфейс Map.
 
 Map<K, V> это интерфейс определяющий функциональность для структуры данных типа множество пар ключ-значение.
-Key - это ключ, уникальный элемент множества.
-Value - это значение, какое-то значение из коллекции.
+Key - это ключ, уникальный элемент множества (Set -> HashSet либо TreeTree).
+Value - это значение, какое-то значение из коллекции (List -> ArrayList, ...).
 
 Все ключи в мапах являются уникальными. 
 
@@ -140,7 +140,7 @@ Hash (ключа) | Значение
 ...
 
 #### Операции с элементами HashMap
-nameMap.put (key , value) - добавление и **обновление** элемента
+nameMap.put (key, value) - добавление и **обновление** элемента
 nameMap.get (key) - получение значения по ключу
 nameMap.remove (key) - удаление значения по ключу
 nameMap.size () - получение размера (количества) элементов
@@ -153,22 +153,21 @@ Map<keyType, valueType> nameMap = new TreeMap<keyType, valueType>();
 #### Цикл по элементам HashMap
 // Print keys - проход по всем ключам
 for (String key : nameMap.keySet()) {
-System.out.println(key);
+  System.out.println(key); // print keys
 }
 
 // Print values - проход по всем значениям
 for (String value : nameMap.values()) {
-System.out.println(value);
+  System.out.println(value);
 }
 
 // Print keys and values - проход по всем ключам и их значениям
 for (String key : nameMap.keySet()) {
-System.out.println("key: " + key + " value: " + nameHashMap.get(i));
+  System.out.println("key: " + key + " value: " + nameHashMap.get(i));
 }
 
 Номерных индексов, как в массивах или списках, в HashMap нет — доступ к элементу
 коллекции осуществляется по **ключу** (напоминаю, что он должен быть уникальным).
-
 
 </details>
 

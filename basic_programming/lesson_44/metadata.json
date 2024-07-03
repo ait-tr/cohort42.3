@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/classwork_43/map_introduction/MapIntroAppl.java",
+    "code/classwork_43/map_introduction/MenAndWomen.java",
+    "code/classwork_43/map_introduction/WordsFrequencyAppl.java"
+
+]
+}

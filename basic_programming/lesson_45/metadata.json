@@ -4,13 +4,11 @@
   "homework": "homework.md",
   "code": [
 
-    "code/homework_43/Countries.java",
-    "code/homework_43/DigitsFreqApp.java",
-    "code/homework_43/DigitsFreqStream.java",
-    "code/сlasswork_44/collections/CollectionsMethods.java",
-    "code/сlasswork_44/stream_intro/StreamAppl.java",
-    "code/сlasswork_44/users/User.java",
-    "code/сlasswork_44/users/UserAppl.java"
+    "code/classwork_45/prime_numbers/PrimeNumber.java",
+    "code/classwork_45/primitive_stream/PrimitiveStreamExample.java",
+    "code/classwork_45/stream_string/Cities.java",
+    "code/parcels/Box.java",
+    "code/parcels/Parcel.java"
 
 ]
 }

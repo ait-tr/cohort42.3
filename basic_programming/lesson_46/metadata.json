@@ -4,11 +4,10 @@
   "homework": "homework.md",
   "code": [
 
-    "code/classwork_45/prime_numbers/PrimeNumber.java",
-    "code/classwork_45/primitive_stream/PrimitiveStreamExample.java",
-    "code/classwork_45/stream_string/Cities.java",
-    "code/parcels/Box.java",
-    "code/parcels/Parcel.java"
+    "code/classwork_46/parcels/Box.java",
+    "code/classwork_46/parcels/Parcel.java",
+    "code/homework_45/students/DekanatAppl.java",
+    "code/homework_45/students/Student.java"
 
 ]
 }

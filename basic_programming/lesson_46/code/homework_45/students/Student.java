@@ -93,18 +93,34 @@ public class Student {
         this.gender = gender;
     }
 
+//    @Override
+//    public String toString() {
+//        return "Student{" +
+//                "id=" + id +
+//                ", firstName='" + firstName + '\'' +
+//                ", lastName='" + lastName + '\'' +
+//                ", birtDay='" + birtDay + '\'' +
+//                ", course='" + course + '\'' +
+//                ", groupNum=" + groupNum +
+//                ", country='" + country + '\'' +
+//                ", gender='" + gender + '\'' +
+//                '}';
+//    }
+
+
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", birtDay='" + birtDay + '\'' +
-                ", course='" + course + '\'' +
-                ", groupNum=" + groupNum +
-                ", country='" + country + '\'' +
-                ", gender='" + gender + '\'' +
-                '}';
+        final StringBuffer sb = new StringBuffer("Student{");
+        sb.append("id=").append(id);
+        sb.append(", firstName='").append(firstName).append('\'');
+        sb.append(", lastName='").append(lastName).append('\'');
+        sb.append(", birtDay='").append(birtDay).append('\'');
+        sb.append(", course='").append(course).append('\'');
+        sb.append(", groupNum=").append(groupNum);
+        sb.append(", country='").append(country).append('\'');
+        sb.append(", gender='").append(gender).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
 
     @Override
@@ -120,14 +136,14 @@ public class Student {
     }
 
     public static Comparator<Student> birthdayComparator = (s1, s2) -> {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("[dd.MM.yyyy][dd/MM/yyyy][dd-MM-yyyy]");
         LocalDate birthDate1 = LocalDate.parse(s1.getBirtDay(), formatter);
         LocalDate birthDate2 = LocalDate.parse(s2.getBirtDay(), formatter);
         return birthDate1.compareTo(birthDate2);
     };
 
-    public double getAge() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+    public int getAge() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("[dd.MM.yyyy][dd/MM/yyyy][dd-MM-yyyy]");
         LocalDate birthDate = LocalDate.parse(birtDay, formatter);
         LocalDate currentDate = LocalDate.now();
         // Вычисление возраста в годах

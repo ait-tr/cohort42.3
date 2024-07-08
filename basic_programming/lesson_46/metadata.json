@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/classwork_45/prime_numbers/PrimeNumber.java",
+    "code/classwork_45/primitive_stream/PrimitiveStreamExample.java",
+    "code/classwork_45/stream_string/Cities.java",
+    "code/parcels/Box.java",
+    "code/parcels/Parcel.java"
+
+]
+}

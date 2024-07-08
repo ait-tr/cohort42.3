@@ -2,7 +2,55 @@
 
 # Lesson plan No. 45 07/05/2024
 
+1. What we did in the last lesson:
+   Studied StreamAPI
 
+2. Homework:
+   Create a Students class
+* id,
+* firstName,
+* lastName,
+* birtDay,
+* course,
+* groupNum (group number),
+* country,
+* gender(gender).
+
+- Make lists of students by course, by group, sorted by last name and age.
+- How many students are men? How many women?
+- What is their average age for the course? For all students?
+
+3. New topic:
+   We continue to study the Stream API
+
+4.Workshop:
+
+**Task 4.**
+Create a Container class with fields:
+String label and List<Box> - a list of boxes with parcels.
+Create a Box class with a field:
+List<Parcel> - list of parcels.
+The Container and Box classes are iterable.
+Create a Parcel class with a double weight field - the weight of the parcel.
+Create a ShipmentAppl class with a main method.
+Think of a random number of containers (10 to 20).
+In each container, consider a random number of boxes (from 10 to 20).
+In each box, think of a random number of parcels (from 5 to 10).
+Let's assume that each parcel weighs on average = 2 kg.
+
+1. Count the total number of parcels in all containers, boxes and their total weight.
+2. Find the label of the container that contains the maximum number of parcels.
+3. Find all containers with the maximum number of packages.
+
+**Task 5.**
+Solving the problem of Programmers and Technologies.
+There is a class in which the fields are encapsulated:
+- String name; // programmer name
+- String[] technologies; // programming languages ​​he speaks (Java, Phyton, etc.)
+
+You need to answer the following questions:
+- Which programmers speak which programming languages?
+- what programming languages ​​are most popular among the company’s programmers?
 
 ___
 

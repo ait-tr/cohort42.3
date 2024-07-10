@@ -67,7 +67,7 @@ Object cloning: Serialization and deserialization can be used to deeply copy obj
 <details style="padding-top: 18px">
   <summary style="cursor: pointer;"><b>На русском</b></summary>
 
-Кострукция **try ... catch** используется в тот момент, когда программа завершает работу
+Конструкция **try ... catch** используется в тот момент, когда программа завершает работу
 некорректно, Code выхода из программы отличен от 0.
 
 ### Синтаксис
@@ -88,8 +88,8 @@ to be executed, if an error occurs in the try block.
 The **try and catch keywords come in pairs**:
 
 Многие исключения и ошибки пользователя можно обрабатывать самому с помощью if, НО ЗАЧЕМ?
-Разарботчики Java предоставляют стандартный инструментарий для этого -
-это класс Throwable (потомок класса Object) и его методы.
+Разработчики Java предоставляют стандартный инструментарий для этого -
+это класс **Throwable** (потомок класса Object) и его методы.
 
 Примеры:
 1. Деление на 0;

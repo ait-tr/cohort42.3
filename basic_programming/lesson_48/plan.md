@@ -1,6 +1,6 @@
 <h3 style="text-align: center; padding-bottom: 14px">2024-02-02</h3>
 
-# Lesson plan No. 47 07/12/2024
+# Lesson plan No. 48 07/12/2024
 
 1. What we did in the last lesson:
 - wrote a monolithic multi-layer application for managing the Library
@@ -63,7 +63,7 @@ An example of instructions for formatting the names of branches and commits:
 
 ___
 
-# План занятия №47 12.07.2024
+# План занятия №48 12.07.2024
 
 1. Что мы делали на прошлом занятии:
 - писали монолитное многослойное приложение для управления Библиотекой

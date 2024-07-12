@@ -1,6 +1,6 @@
 <h3 style="text-align: center; padding-bottom: 14px">2024-02-02</h3>
 
-# Lesson plan No. 45 07/05/2024
+# Lesson plan No. 45 07/10/2024
 
 1. What we did in the last lesson:
 - did exercises on using the Stream API
@@ -19,7 +19,7 @@
 
 ___
 
-# План занятия №46 08.07.2024
+# План занятия №46 10.07.2024
 
 1. Что мы сделали на прошлом занятии:
 - делали упражнения на использование Stream API

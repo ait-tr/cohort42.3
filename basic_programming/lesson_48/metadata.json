@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/classwork_47/library/dao/Library.java",
+    "code/classwork_47/library/dao/LibraryImpl.java",
+    "code/classwork_47/library/model/Author.java",
+    "code/classwork_47/library/model/Book.java",
+    "code/classwork_47/library/model/Menu.java",
+    "code/classwork_47/library/test/LibraryImplTest.java",
+    "code/classwork_47/try_catch_example/ArrayOutOfRangeExample.java",
+    "code/write_read_file/Address.java",
+    "code/write_read_file/Employee.java",
+    "code/write_read_file/RestoreEmployeeAppl.java",
+    "code/write_read_file/SaveEmployeeToFile.java"
+
+]
+}

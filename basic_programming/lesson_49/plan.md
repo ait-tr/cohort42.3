@@ -1,31 +1,15 @@
 <h3 style="text-align: center; padding-bottom: 14px">2024-02-02</h3>
 
-# Lesson plan No. 48 07/12/2024
+# Lesson plan No. 49 07/15/2024
 
 1. What we did in the last lesson:
-- wrote a monolithic multi-layer application for managing the Library
-- model:
-- Book (class)
-- Author (class)
-- Menu (enum)
-- dao:
-- Library (interface)
-- LibtaryImpl (class)
-- test:
-- LibraryImplTest (class)
+- mastered working with branches in Git (GitHub)
 
 2. Homework:
 - add tests;
 - write a console application with a menu and saving/reading data from a file.
 
-3. New topic:
-- Git:
-  -Fork
-- Pull request
-- Create branches, switch between them, delete
-- Conflict resolution
-
-4.Workshop on working with Git:
+3.Workshop on working with Git:
 
 **Task:**
 Take the text of a popular song in Russian or English, at least 3 verses.
@@ -39,7 +23,7 @@ Process description:
 - TL connects team members to the repository;
 - TL makes a dev branch from main;
 - all team members clone the repository for themselves;
-- the leader and the team agree on the way to name their branches according to the stages of the project, for example - see below;
+- the leader and the team agree on the way to name their branches according to the stages of the project, for an example - see below;
 - team members create their own correctly named branches for each stage of development;
 - add “code” (2 lines from a verse of a song) to their branches, always making mistakes in the text and design (leaving comments, empty lines, mistakes in words, etc. in the code);
 - create a pull request (PR) and send the TL code to code review (CR) in the dev branch;
@@ -61,34 +45,53 @@ An example of instructions for formatting the names of branches and commits:
 - commits according to this template:
   (SONG-xxx)_commit_description
 
+4. **Implementation of a mini-project (console application):**
+
+**Requirements:**
+- Availability of menus and messages from the application in English
+- Saving and restoring data from a file in the current project directory (package)
+- Project structure:
+  -dao
+- model
+- tests
+- application
+- protection against "fool" (incorrect data entry)
+
+**Organization of work and timing:**
+- joint work in Zoom during classes on July 15 and 17, you can request additional fees. conferences
+- distribution of roles (team lead, programmers, tests, project management)
+- distribution of tasks
+- creating a repository on GitHub
+- use of the Internet and AI - as needed and desired.
+
+**Themes:**
+- currency converter:
+- loads a list of available currencies with rates from a file;
+- asks the client for the desired currency and how much money he has to exchange;
+- reports the amount to be issued;
+- at the end of the session, saves all transactions made to a file, provides a report on the amount
+  exchanges for each currency separately for purchase and sale.
+
+- family budget for the current month:
+- purchases (a purchase contains several products);
+- who did the shopping;
+- in which shop;
+- budget control during the month.
+
+- calculator of calories eaten per day.
+
 ___
 
-# План занятия №48 12.07.2024
+# План занятия №49 15.07.2024
 
 1. Что мы делали на прошлом занятии:
-- писали монолитное многослойное приложение для управления Библиотекой
-  - model:
-    - Book (class)
-    - Author (class)
-    - Menu (enum)
-  - dao:
-    - Library (interfase)
-    - LibtaryImpl (class)
-  - test:
-    - LibraryImplTest (class)
+- осваивали работу с ветками в Git (GitHub)
 
 2. Домашнее задание:
 - дописать тесты;
 - написать консольное приложение с меню и сохранением/считыванием данных из файла.
 
-3. Новая тема:
-- Git:
-  - Fork
-  - Pull request
-  - Создание веток, переключение между ними, удаление
-  - Разрешение конфликтов
-
-4.Практикум по работе с Git:
+3.Практикум по работе с Git:
 
 **Задача:**
 Берем текст популярной песни на русском или английском языке, не менее 3-х куплетов.
@@ -124,4 +127,37 @@ ___
 - коммиты по этому шаблону: 
 (SONG-xxx)_описание_коммита
 
-  
+4. **Реализация мини-проекта (консольное приложение):**
+
+**Требования:**
+  - Наличие меню и сообщения от приложения на английском языке
+  - Сохранение и восстановление данных из файла в текущей директории проекта (пакете)
+  - Структура проекта:
+    - dao
+    - model
+    - tests
+  - приложение
+  - защита от "дурака" (некорректный ввод данных)
+
+**Организация работы и тайминг:**
+  - совместная работа в Zoom во время занятий 15 и 17 июля, можно запросить доп. конференции
+  - распределение ролей (team lead, programmers, tests, project management)
+  - распределение задач
+  - создание репозитория на GitHub 
+  - использование Интернета и AI - по необходимости и желанию.
+
+**Темы:**
+- конвертор валюты:
+    - загружает из файла список доступных валют с курсами;
+    - запрашивает у клиента желаемую валюту и сколько у него денег для обмена;
+    - сообщает сумму к выдаче;
+    - в конце сеанса сохраняет все сделанные транзакции в файл, предоставляет отчет о сумме
+      обменов по каждой валюте отдельно по покупке и продаже.
+
+- семейный бюджет в текущем месяце:
+    - покупки (покупка содержит несколько продуктов);
+    - кто делал покупки;
+    - в каком магазине;
+    - контроль бюджета в течение месяца.
+
+- калькулятор калорий съеденного за день.

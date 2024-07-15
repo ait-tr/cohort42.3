@@ -1,4 +1,4 @@
-package homework_47.library.model;
+package homework_48.library.model;
 
 public enum Menu {
     ADD_BOOK(1, "Add book"),

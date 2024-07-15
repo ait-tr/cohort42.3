@@ -1,4 +1,4 @@
-package homework_47.library.model;
+package homework_48.library.model;
 
 import java.time.LocalDate;
 import java.util.Objects;

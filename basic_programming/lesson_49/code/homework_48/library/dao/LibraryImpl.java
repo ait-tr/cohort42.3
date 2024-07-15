@@ -1,7 +1,7 @@
-package homework_47.library.dao;
+package homework_48.library.dao;
 
-import homework_47.library.model.Author;
-import homework_47.library.model.Book;
+import homework_48.library.model.Author;
+import homework_48.library.model.Book;
 
 import java.util.HashSet;
 import java.util.Set;

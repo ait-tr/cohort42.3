@@ -1,9 +1,9 @@
-package homework_47.library.test;
+package homework_48.library.test;
 
-import homework_47.library.dao.Library;
-import homework_47.library.dao.LibraryImpl;
-import homework_47.library.model.Author;
-import homework_47.library.model.Book;
+import homework_48.library.dao.Library;
+import homework_48.library.dao.LibraryImpl;
+import homework_48.library.model.Author;
+import homework_48.library.model.Book;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

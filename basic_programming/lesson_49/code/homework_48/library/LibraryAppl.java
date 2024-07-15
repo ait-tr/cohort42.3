@@ -1,9 +1,9 @@
-package homework_47.library;
+package homework_48.library;
 
-import homework_47.library.dao.LibraryImpl;
-import homework_47.library.model.Author;
-import homework_47.library.model.Book;
-import homework_47.library.model.Menu;
+import homework_48.library.dao.LibraryImpl;
+import homework_48.library.model.Author;
+import homework_48.library.model.Book;
+import homework_48.library.model.Menu;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

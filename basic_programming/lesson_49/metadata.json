@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_48/library/dao/Library.java",
+    "code/homework_48/library/dao/LibraryImpl.java",
+    "code/homework_48/library/model/Author.java",
+    "code/homework_48/library/model/Book.java",
+    "code/homework_48/library/model/Menu.java",
+    "code/homework_48/library/test/LibraryImplTest.java",
+    "code/homework_48/library/LibraryAppl.java"
+  ]
+}

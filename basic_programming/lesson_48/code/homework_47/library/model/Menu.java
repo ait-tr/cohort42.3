@@ -10,12 +10,22 @@ public enum Menu {
     EXIT(7, "End day")
     ;
 
+    int item;
+    String action;
+
     Menu(int item, String action) {
         this.item = item;
         this.action = action;
     }
 
-    int item;
-    String action;
+    public static void printMenu(){
+        Menu[] menu = Menu.values();
+        for (int i = 0; i < menu.length; i++) {
+            System.out.print(menu[i].item + " - " + menu[i].action + " | ");
+        }
+        System.out.println();
+        System.out.println("--------------------------------------------------------------------");
+        System.out.println("Enter your choice: ");
+    }
 
 }

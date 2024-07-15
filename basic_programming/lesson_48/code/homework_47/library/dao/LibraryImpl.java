@@ -50,7 +50,7 @@ public class LibraryImpl implements Library {
     public boolean rentBook(String isbn) {
         // find book
 
-        //set isRented = true
+        //set isRented = true;
         return true;
     }
 
@@ -58,7 +58,7 @@ public class LibraryImpl implements Library {
     public boolean getBackBook(String isbn) {
         // find book
 
-        //set isRented = true
+        //set isRented = false;
         return true;
     }
 

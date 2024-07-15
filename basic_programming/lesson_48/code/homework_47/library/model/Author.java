@@ -7,7 +7,7 @@ public class Author {
 
     final String name;
     final String lastName;
-    final LocalDate birthDay;
+    LocalDate birthDay;
     String country;
     double rating;
 
@@ -17,6 +17,11 @@ public class Author {
         this.birthDay = birthDay;
         this.country = country;
         this.rating = rating;
+    }
+
+    public Author(String name, String lastName) {
+        this.name = name;
+        this.lastName = lastName;
     }
 
     public String getName() {
@@ -70,7 +75,7 @@ public class Author {
                 '}';
     }
 
-    public String displayAuthor(){
+    public String displayAuthor() {
         return "name= " + name + ", lastName='" + lastName + ", birthDay=" + birthDay;
     }
 }

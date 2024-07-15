@@ -1,8 +1,9 @@
 package homework_48.library.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Book {
+public class Book implements Serializable {
     final String isbn;
     String title;
     Author author;

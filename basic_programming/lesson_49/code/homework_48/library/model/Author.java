@@ -1,9 +1,10 @@
 package homework_48.library.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Author {
+public class Author implements Serializable {
 
     final String name;
     final String lastName;
